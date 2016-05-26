@@ -42,7 +42,7 @@ test { exclude '**' }
 moe {
     xcode.mainTarget = 'bind_json_simple_1_1_1'
     xcode.testTarget = 'bind_json_simple_1_1_1-Test'
-    xcode.packageName = 'com.mattakiskft.bind_json_simple_1_1_1'
+    xcode.packageName = 'com.migeran.bind'
     xcode.launchScreenFilePath = 'src/main/resources/LaunchScreen.xib'
     xcode.bundleID = 'com.migeran.bind-json-simple-1-1-1'
     xcode.generateProject false

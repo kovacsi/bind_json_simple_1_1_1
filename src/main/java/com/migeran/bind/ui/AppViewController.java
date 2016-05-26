@@ -1,4 +1,4 @@
-package com.mattakiskft.bind_json_simple_1_1_1.ui;
+package com.migeran.bind.ui;
 
 import com.intel.moe.natj.general.Pointer;
 import com.intel.moe.natj.general.ann.Owned;

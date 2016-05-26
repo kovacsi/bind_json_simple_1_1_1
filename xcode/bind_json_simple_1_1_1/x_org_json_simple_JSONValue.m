@@ -2,11 +2,31 @@
 
 @implementation x_org_json_simple_JSONValue
 
-+ (NSObject*) parse:(id) arg0 {
++ (NSObject*) parseWithReader:(id) arg0 {
 	return nil;
 }
 
-+ (NSObject*) parseWithException:(id) arg0 {
++ (NSObject*) parseWithString:(NSString*) arg0 {
+	return nil;
+}
+
++ (NSObject*) parseWithExceptionWithReader:(id) arg0 {
+	return nil;
+}
+
++ (NSObject*) parseWithExceptionWithString:(NSString*) arg0 {
+	return nil;
+}
+
++ (void) writeJSONStringWithObjectWithWriter:(NSObject*) arg0 :(id) arg1 {
+
+}
+
++ (NSString*) toJSONStringWithObject:(NSObject*) arg0 {
+	return nil;
+}
+
++ (NSString*) escapeWithString:(NSString*) arg0 {
 	return nil;
 }
 

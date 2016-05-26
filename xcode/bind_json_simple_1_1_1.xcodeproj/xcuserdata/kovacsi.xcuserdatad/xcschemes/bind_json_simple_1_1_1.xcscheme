@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "409D335640786CD42108547F"
+               BlueprintIdentifier = "59E3EA0E1619AF4D72435EB6"
                BuildableName = "bind_json_simple_1_1_1.app"
                BlueprintName = "bind_json_simple_1_1_1"
                ReferencedContainer = "container:bind_json_simple_1_1_1.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "409D335640786CD42108547F"
+            BlueprintIdentifier = "59E3EA0E1619AF4D72435EB6"
             BuildableName = "bind_json_simple_1_1_1.app"
             BlueprintName = "bind_json_simple_1_1_1"
             ReferencedContainer = "container:bind_json_simple_1_1_1.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "409D335640786CD42108547F"
+            BlueprintIdentifier = "59E3EA0E1619AF4D72435EB6"
             BuildableName = "bind_json_simple_1_1_1.app"
             BlueprintName = "bind_json_simple_1_1_1"
             ReferencedContainer = "container:bind_json_simple_1_1_1.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "409D335640786CD42108547F"
+            BlueprintIdentifier = "59E3EA0E1619AF4D72435EB6"
             BuildableName = "bind_json_simple_1_1_1.app"
             BlueprintName = "bind_json_simple_1_1_1"
             ReferencedContainer = "container:bind_json_simple_1_1_1.xcodeproj">

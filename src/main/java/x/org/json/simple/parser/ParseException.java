@@ -44,8 +44,8 @@ public class ParseException extends NSObject {
 		return original.getErrorType();
 	}
 
-	@Selector("setErrorType:")
-	public void setErrorType(int arg0) {
+	@Selector("setErrorTypeWithInt:")
+	public void setErrorTypeWithInt(int arg0) {
 		original.setErrorType(arg0);
 	}
 
@@ -54,8 +54,8 @@ public class ParseException extends NSObject {
 		return original.getPosition();
 	}
 
-	@Selector("setPosition:")
-	public void setPosition(int arg0) {
+	@Selector("setPositionWithInt:")
+	public void setPositionWithInt(int arg0) {
 		original.setPosition(arg0);
 	}
 
@@ -64,8 +64,8 @@ public class ParseException extends NSObject {
 		return original.getUnexpectedObject();
 	}
 
-	@Selector("setUnexpectedObject:")
-	public void setUnexpectedObject(Object arg0) {
+	@Selector("setUnexpectedObjectWithObject:")
+	public void setUnexpectedObjectWithObject(Object arg0) {
 		original.setUnexpectedObject(arg0);
 	}
 

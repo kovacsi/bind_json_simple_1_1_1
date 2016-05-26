@@ -23,8 +23,8 @@ public class JSONParser extends NSObject {
 		original.reset();
 	}
 
-	@Selector("reset:")
-	public void reset(java.io.Reader arg0) {
+	@Selector("resetWithReader:")
+	public void resetWithReader(java.io.Reader arg0) {
 		original.reset(arg0);
 	}
 
@@ -33,43 +33,43 @@ public class JSONParser extends NSObject {
 		return original.getPosition();
 	}
 
-	@Selector("parse:")
-	public Object parse(String arg0) throws org.json.simple.parser.ParseException {
+	@Selector("parseWithString:")
+	public Object parseWithString(String arg0) throws org.json.simple.parser.ParseException {
 		return original.parse(arg0);
 	}
 
-	@Selector("parse::")
-	public Object parse(String arg0, org.json.simple.parser.ContainerFactory arg1) throws org.json.simple.parser.ParseException {
+	@Selector("parseWithStringWithContainerFactory::")
+	public Object parseWithStringWithContainerFactory(String arg0, org.json.simple.parser.ContainerFactory arg1) throws org.json.simple.parser.ParseException {
 		return original.parse(arg0, arg1);
 	}
 
-	@Selector("parse:")
-	public Object parse(java.io.Reader arg0) throws java.io.IOException, org.json.simple.parser.ParseException {
+	@Selector("parseWithReader:")
+	public Object parseWithReader(java.io.Reader arg0) throws java.io.IOException, org.json.simple.parser.ParseException {
 		return original.parse(arg0);
 	}
 
-	@Selector("parse::")
-	public Object parse(java.io.Reader arg0, org.json.simple.parser.ContainerFactory arg1) throws java.io.IOException, org.json.simple.parser.ParseException {
+	@Selector("parseWithReaderWithContainerFactory::")
+	public Object parseWithReaderWithContainerFactory(java.io.Reader arg0, org.json.simple.parser.ContainerFactory arg1) throws java.io.IOException, org.json.simple.parser.ParseException {
 		return original.parse(arg0, arg1);
 	}
 
-	@Selector("parse::")
-	public void parse(String arg0, org.json.simple.parser.ContentHandler arg1) throws org.json.simple.parser.ParseException {
+	@Selector("parseWithStringWithContentHandler::")
+	public void parseWithStringWithContentHandler(String arg0, org.json.simple.parser.ContentHandler arg1) throws org.json.simple.parser.ParseException {
 		original.parse(arg0, arg1);
 	}
 
-	@Selector("parse:::")
-	public void parse(String arg0, org.json.simple.parser.ContentHandler arg1, boolean arg2) throws org.json.simple.parser.ParseException {
+	@Selector("parseWithStringWithContentHandlerWithBoolean:::")
+	public void parseWithStringWithContentHandlerWithBoolean(String arg0, org.json.simple.parser.ContentHandler arg1, boolean arg2) throws org.json.simple.parser.ParseException {
 		original.parse(arg0, arg1, arg2);
 	}
 
-	@Selector("parse::")
-	public void parse(java.io.Reader arg0, org.json.simple.parser.ContentHandler arg1) throws java.io.IOException, org.json.simple.parser.ParseException {
+	@Selector("parseWithReaderWithContentHandler::")
+	public void parseWithReaderWithContentHandler(java.io.Reader arg0, org.json.simple.parser.ContentHandler arg1) throws java.io.IOException, org.json.simple.parser.ParseException {
 		original.parse(arg0, arg1);
 	}
 
-	@Selector("parse:::")
-	public void parse(java.io.Reader arg0, org.json.simple.parser.ContentHandler arg1, boolean arg2) throws java.io.IOException, org.json.simple.parser.ParseException {
+	@Selector("parseWithReaderWithContentHandlerWithBoolean:::")
+	public void parseWithReaderWithContentHandlerWithBoolean(java.io.Reader arg0, org.json.simple.parser.ContentHandler arg1, boolean arg2) throws java.io.IOException, org.json.simple.parser.ParseException {
 		original.parse(arg0, arg1, arg2);
 	}
 

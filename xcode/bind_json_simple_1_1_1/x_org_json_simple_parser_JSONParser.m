@@ -2,7 +2,11 @@
 
 @implementation x_org_json_simple_parser_JSONParser
 
-- (void) reset:(id) arg0 {
+- (void) reset {
+
+}
+
+- (void) resetWithReader:(id) arg0 {
 
 }
 
@@ -10,15 +14,35 @@
 	return 0;
 }
 
-- (NSObject*) parse:(NSString*) arg0 {
+- (NSObject*) parseWithString:(NSString*) arg0 {
 	return nil;
 }
 
-- (NSObject*) parse:(NSString*) arg0 :(id) arg1 {
+- (NSObject*) parseWithStringWithContainerFactory:(NSString*) arg0 :(id) arg1 {
 	return nil;
 }
 
-- (void) parse:(NSString*) arg0 :(id) arg1 :(bool) arg2 {
+- (NSObject*) parseWithReader:(id) arg0 {
+	return nil;
+}
+
+- (NSObject*) parseWithReaderWithContainerFactory:(id) arg0 :(id) arg1 {
+	return nil;
+}
+
+- (void) parseWithStringWithContentHandler:(NSString*) arg0 :(id) arg1 {
+
+}
+
+- (void) parseWithStringWithContentHandlerWithBoolean:(NSString*) arg0 :(id) arg1 :(bool) arg2 {
+
+}
+
+- (void) parseWithReaderWithContentHandler:(id) arg0 :(id) arg1 {
+
+}
+
+- (void) parseWithReaderWithContentHandlerWithBoolean:(id) arg0 :(id) arg1 :(bool) arg2 {
 
 }
 

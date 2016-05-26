@@ -18,11 +18,15 @@
 	return 0;
 }
 
-- (void) setErrorType:(int) arg0 {
+- (void) setErrorTypeWithInt:(int) arg0 {
 
 }
 
-- (void) setPosition:(int) arg0 {
+- (int) getPosition {
+	return 0;
+}
+
+- (void) setPositionWithInt:(int) arg0 {
 
 }
 
@@ -30,7 +34,7 @@
 	return nil;
 }
 
-- (void) setUnexpectedObject:(NSObject*) arg0 {
+- (void) setUnexpectedObjectWithObject:(NSObject*) arg0 {
 
 }
 

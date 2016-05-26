@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1772B7E0DC166282EF2AC9D5 /* intel_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2E2291D78E7E8A49FE73D5 /* intel_logo.png */; };
-		1B2BBD407903A08FF89DBA5A /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F34283DAF484BF50A6F8474 /* preregister.txt */; };
-		37051E9F895957452FC6B1D2 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = A95B9CB9599009FF32E2A101 /* application.jar */; };
-		371F7D6F442B867B90238658 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6E9C641D5133059A82DE32 /* MOE.framework */; };
-		456765A59E4ECEBB5915136F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C980B8147A152511F35C11E1 /* main.cpp */; };
-		654F10C5E8FC26E04651657B /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554C08A163C2FD96F68702A6 /* MainUI.storyboard */; };
-		7D4874B2F2DF13DFBA601CAF /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6E9C641D5133059A82DE32 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8BBA446955B410CA1BB8937D /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C1907996549D66EFB7AFA /* preregister.txt */; };
-		9927DCA21CF5E0080091251D /* x_org_json_simple_ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927DC951CF5E0080091251D /* x_org_json_simple_ItemList.m */; };
-		9927DCA31CF5E0080091251D /* x_org_json_simple_JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927DC971CF5E0080091251D /* x_org_json_simple_JSONArray.m */; };
-		9927DCA41CF5E0080091251D /* x_org_json_simple_JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927DC991CF5E0080091251D /* x_org_json_simple_JSONObject.m */; };
-		9927DCA51CF5E0080091251D /* x_org_json_simple_JSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927DC9B1CF5E0080091251D /* x_org_json_simple_JSONValue.m */; };
-		9927DCA61CF5E0080091251D /* x_org_json_simple_parser_JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927DC9D1CF5E0080091251D /* x_org_json_simple_parser_JSONParser.m */; };
-		9927DCA71CF5E0080091251D /* x_org_json_simple_parser_ParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927DC9F1CF5E0080091251D /* x_org_json_simple_parser_ParseException.m */; };
-		9927DCA81CF5E0080091251D /* x_org_json_simple_parser_Yytoken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927DCA11CF5E0080091251D /* x_org_json_simple_parser_Yytoken.m */; };
-		DFFDF8572C068EAC81327ECF /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27F5BA36705C33D524EDEBF7 /* classlist.txt */; };
-		E32EE491B7203351F1E36B83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C980B8147A152511F35C11E1 /* main.cpp */; };
-		E7E379DA1F8502F60640E07B /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6E9C641D5133059A82DE32 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0E7DD379441AB8C2A8D2299 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6E9C641D5133059A82DE32 /* MOE.framework */; };
-		F3498877ABEAFA8232973088 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C53A7C30A3EF29C026AC934C /* LaunchScreen.xib */; };
-		FE8B72F68054A414995C899E /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = D2B26B0BB45F738994DC33ED /* application.jar */; };
+		107F067735AB941F707F7FE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51101E67AA48DDF98EC7C483 /* main.cpp */; };
+		134508335B008D40EEF19D23 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8C94D4AEFD32CE8DC7A687FC /* preregister.txt */; };
+		20A93F421B8A91211A508BE1 /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 062411D7A8D332481E58E3B5 /* classlist.txt */; };
+		2144EBDD188F6EC94F678477 /* intel_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C20D09E5F3BF976F61155B /* intel_logo.png */; };
+		2B082351EFA619111B303B34 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A07C89509259540FF4226 /* application.jar */; };
+		2F3E7251CBB8384EA9B7321E /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; };
+		4F209AABEDBDC93ACABA2F01 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		77A2ADADE1C09A78E0332692 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51101E67AA48DDF98EC7C483 /* main.cpp */; };
+		86C32166EC4D33D039BCECD0 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = AAF700D229A4CE445A9B2676 /* application.jar */; };
+		996187381CF6D2F70026961A /* x_org_json_simple_ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961872B1CF6D2F70026961A /* x_org_json_simple_ItemList.m */; };
+		996187391CF6D2F70026961A /* x_org_json_simple_JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961872D1CF6D2F70026961A /* x_org_json_simple_JSONArray.m */; };
+		9961873A1CF6D2F70026961A /* x_org_json_simple_JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961872F1CF6D2F70026961A /* x_org_json_simple_JSONObject.m */; };
+		9961873B1CF6D2F70026961A /* x_org_json_simple_JSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 996187311CF6D2F70026961A /* x_org_json_simple_JSONValue.m */; };
+		9961873C1CF6D2F70026961A /* x_org_json_simple_parser_JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 996187331CF6D2F70026961A /* x_org_json_simple_parser_JSONParser.m */; };
+		9961873D1CF6D2F70026961A /* x_org_json_simple_parser_ParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 996187351CF6D2F70026961A /* x_org_json_simple_parser_ParseException.m */; };
+		9961873E1CF6D2F70026961A /* x_org_json_simple_parser_Yytoken.m in Sources */ = {isa = PBXBuildFile; fileRef = 996187371CF6D2F70026961A /* x_org_json_simple_parser_Yytoken.m */; };
+		C7B62D2170D5520063A0DAB1 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; };
+		E91C6748771C96BCF42DEF52 /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC748EBAA22B22FCE04050 /* MainUI.storyboard */; };
+		EDC89D6BAEC60172D484F32C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */; };
+		F4828E66724FD402F9E5B01E /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDF1435540D9B05EB5213AC2 /* preregister.txt */; };
+		F72924F3E95B42FEA194110A /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3E221A16341EF53D32488ECD /* Embed Frameworks */ = {
+		B67D9B0A69A0DF97E4CF4943 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7D4874B2F2DF13DFBA601CAF /* MOE.framework in Embed Frameworks */,
+				4F209AABEDBDC93ACABA2F01 /* MOE.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C2463F58CC8E0B261C0A1E9 /* Embed Frameworks */ = {
+		D9CD1A890E5C2E040C86DDCE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E7E379DA1F8502F60640E07B /* MOE.framework in Embed Frameworks */,
+				F72924F3E95B42FEA194110A /* MOE.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,188 +56,188 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F34283DAF484BF50A6F8474 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; };
-		27F5BA36705C33D524EDEBF7 /* classlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = classlist.txt; path = ../build/moe/test/classlist.txt; sourceTree = SOURCE_ROOT; };
-		2A6E9C641D5133059A82DE32 /* MOE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOE.framework; sourceTree = MOE_FRAMEWORK_PATH; };
-		554C08A163C2FD96F68702A6 /* MainUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainUI.storyboard; path = ../src/main/resources/MainUI.storyboard; sourceTree = SOURCE_ROOT; };
-		563C7942502A0658014F294F /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		68C95E3B3144CE54D2C0F28A /* bind_json_simple_1_1_1-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bind_json_simple_1_1_1-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9927DC941CF5E0080091251D /* x_org_json_simple_ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_ItemList.h; sourceTree = "<group>"; };
-		9927DC951CF5E0080091251D /* x_org_json_simple_ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_ItemList.m; sourceTree = "<group>"; };
-		9927DC961CF5E0080091251D /* x_org_json_simple_JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_JSONArray.h; sourceTree = "<group>"; };
-		9927DC971CF5E0080091251D /* x_org_json_simple_JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_JSONArray.m; sourceTree = "<group>"; };
-		9927DC981CF5E0080091251D /* x_org_json_simple_JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_JSONObject.h; sourceTree = "<group>"; };
-		9927DC991CF5E0080091251D /* x_org_json_simple_JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_JSONObject.m; sourceTree = "<group>"; };
-		9927DC9A1CF5E0080091251D /* x_org_json_simple_JSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_JSONValue.h; sourceTree = "<group>"; };
-		9927DC9B1CF5E0080091251D /* x_org_json_simple_JSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_JSONValue.m; sourceTree = "<group>"; };
-		9927DC9C1CF5E0080091251D /* x_org_json_simple_parser_JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_parser_JSONParser.h; sourceTree = "<group>"; };
-		9927DC9D1CF5E0080091251D /* x_org_json_simple_parser_JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_parser_JSONParser.m; sourceTree = "<group>"; };
-		9927DC9E1CF5E0080091251D /* x_org_json_simple_parser_ParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_parser_ParseException.h; sourceTree = "<group>"; };
-		9927DC9F1CF5E0080091251D /* x_org_json_simple_parser_ParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_parser_ParseException.m; sourceTree = "<group>"; };
-		9927DCA01CF5E0080091251D /* x_org_json_simple_parser_Yytoken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_parser_Yytoken.h; sourceTree = "<group>"; };
-		9927DCA11CF5E0080091251D /* x_org_json_simple_parser_Yytoken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_parser_Yytoken.m; sourceTree = "<group>"; };
-		9B2C1907996549D66EFB7AFA /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/main/preregister.txt; sourceTree = SOURCE_ROOT; };
-		A6B5580F4A1D4363F3678A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = bind_json_simple_1_1_1/Info.plist; sourceTree = "<group>"; };
-		A95B9CB9599009FF32E2A101 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/main/application.jar; sourceTree = SOURCE_ROOT; };
-		B225922206421BA2008EB687 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		C53A7C30A3EF29C026AC934C /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../src/main/resources/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
-		C980B8147A152511F35C11E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D2B26B0BB45F738994DC33ED /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; };
-		DE2E2291D78E7E8A49FE73D5 /* intel_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intel_logo.png; path = ../src/main/resources/intel_logo.png; sourceTree = SOURCE_ROOT; };
-		DEA2C515FC01224D2DF6A6ED /* bind_json_simple_1_1_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bind_json_simple_1_1_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F571BF3F492F0868AD95FAB4 /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Test.plist"; path = "bind_json_simple_1_1_1-Test/Info-Test.plist"; sourceTree = "<group>"; };
+		035AD4F13F961E188090FADF /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Test.plist"; path = "bind_json_simple_1_1_1-Test/Info-Test.plist"; sourceTree = "<group>"; };
+		062411D7A8D332481E58E3B5 /* classlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = classlist.txt; path = ../build/moe/test/classlist.txt; sourceTree = SOURCE_ROOT; };
+		33CC748EBAA22B22FCE04050 /* MainUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainUI.storyboard; path = ../src/main/resources/MainUI.storyboard; sourceTree = SOURCE_ROOT; };
+		51101E67AA48DDF98EC7C483 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOE.framework; sourceTree = MOE_FRAMEWORK_PATH; };
+		5B2A07C89509259540FF4226 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/main/application.jar; sourceTree = SOURCE_ROOT; };
+		7D506F713CBA22F9C055CDCB /* bind_json_simple_1_1_1-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bind_json_simple_1_1_1-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E457CDC7F16D76202D262E /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		89C20D09E5F3BF976F61155B /* intel_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intel_logo.png; path = ../src/main/resources/intel_logo.png; sourceTree = SOURCE_ROOT; };
+		89EB6E4FBBB902954AF63292 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		8C94D4AEFD32CE8DC7A687FC /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; };
+		91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../src/main/resources/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		9961872A1CF6D2F70026961A /* x_org_json_simple_ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_ItemList.h; sourceTree = "<group>"; };
+		9961872B1CF6D2F70026961A /* x_org_json_simple_ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_ItemList.m; sourceTree = "<group>"; };
+		9961872C1CF6D2F70026961A /* x_org_json_simple_JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_JSONArray.h; sourceTree = "<group>"; };
+		9961872D1CF6D2F70026961A /* x_org_json_simple_JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_JSONArray.m; sourceTree = "<group>"; };
+		9961872E1CF6D2F70026961A /* x_org_json_simple_JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_JSONObject.h; sourceTree = "<group>"; };
+		9961872F1CF6D2F70026961A /* x_org_json_simple_JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_JSONObject.m; sourceTree = "<group>"; };
+		996187301CF6D2F70026961A /* x_org_json_simple_JSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_JSONValue.h; sourceTree = "<group>"; };
+		996187311CF6D2F70026961A /* x_org_json_simple_JSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_JSONValue.m; sourceTree = "<group>"; };
+		996187321CF6D2F70026961A /* x_org_json_simple_parser_JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_parser_JSONParser.h; sourceTree = "<group>"; };
+		996187331CF6D2F70026961A /* x_org_json_simple_parser_JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_parser_JSONParser.m; sourceTree = "<group>"; };
+		996187341CF6D2F70026961A /* x_org_json_simple_parser_ParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_parser_ParseException.h; sourceTree = "<group>"; };
+		996187351CF6D2F70026961A /* x_org_json_simple_parser_ParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_parser_ParseException.m; sourceTree = "<group>"; };
+		996187361CF6D2F70026961A /* x_org_json_simple_parser_Yytoken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_org_json_simple_parser_Yytoken.h; sourceTree = "<group>"; };
+		996187371CF6D2F70026961A /* x_org_json_simple_parser_Yytoken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x_org_json_simple_parser_Yytoken.m; sourceTree = "<group>"; };
+		A24A66393C676FA0078F9A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = bind_json_simple_1_1_1/Info.plist; sourceTree = "<group>"; };
+		AAF700D229A4CE445A9B2676 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; };
+		D6773CD15A0556CDC531BE20 /* bind_json_simple_1_1_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bind_json_simple_1_1_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF1435540D9B05EB5213AC2 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/main/preregister.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FCB75A4C5DCA69B802B69C9 /* Frameworks */ = {
+		B52332125692111D6E11FA8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371F7D6F442B867B90238658 /* MOE.framework in Frameworks */,
+				2F3E7251CBB8384EA9B7321E /* MOE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC128A1C7B61A3617CA8B7F0 /* Frameworks */ = {
+		E3EDC72A6CEDEF59B2DB5CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0E7DD379441AB8C2A8D2299 /* MOE.framework in Frameworks */,
+				C7B62D2170D5520063A0DAB1 /* MOE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		50807AE33AB3410E5CE6658A /* bind_json_simple_1_1_1 */ = {
+		0483945F06D7F588BFF54D97 = {
 			isa = PBXGroup;
 			children = (
-				97D9716449C74800000FF8DD /* Supporting Files */,
+				CB8637F11BE5952294DA76DB /* bind_json_simple_1_1_1 */,
+				5710522F48407C6D3AC1C5B2 /* bind_json_simple_1_1_1-Test */,
+				958001D6C5FDA4C2D46DCE0D /* Frameworks */,
+				3D4163B8EF915B92C939A1E9 /* Products */,
 			);
-			path = bind_json_simple_1_1_1;
 			sourceTree = "<group>";
 		};
-		5E35A76990FB8CB901EAA93B /* bind_json_simple_1_1_1-Test */ = {
+		3D4163B8EF915B92C939A1E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				721D6377E52B6E198E9B8D20 /* Supporting Files */,
+				D6773CD15A0556CDC531BE20 /* bind_json_simple_1_1_1.app */,
+				7D506F713CBA22F9C055CDCB /* bind_json_simple_1_1_1-Test.app */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		5710522F48407C6D3AC1C5B2 /* bind_json_simple_1_1_1-Test */ = {
+			isa = PBXGroup;
+			children = (
+				58CCCED7DDD00DC9D687D185 /* Supporting Files */,
 			);
 			path = "bind_json_simple_1_1_1-Test";
 			sourceTree = "<group>";
 		};
-		721D6377E52B6E198E9B8D20 /* Supporting Files */ = {
+		58CCCED7DDD00DC9D687D185 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				563C7942502A0658014F294F /* build.xcconfig */,
-				F571BF3F492F0868AD95FAB4 /* Info-Test.plist */,
-				1F34283DAF484BF50A6F8474 /* preregister.txt */,
-				D2B26B0BB45F738994DC33ED /* application.jar */,
-				27F5BA36705C33D524EDEBF7 /* classlist.txt */,
+				89EB6E4FBBB902954AF63292 /* build.xcconfig */,
+				035AD4F13F961E188090FADF /* Info-Test.plist */,
+				8C94D4AEFD32CE8DC7A687FC /* preregister.txt */,
+				AAF700D229A4CE445A9B2676 /* application.jar */,
+				062411D7A8D332481E58E3B5 /* classlist.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7A66C183F11D4FBBC244B541 = {
+		958001D6C5FDA4C2D46DCE0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50807AE33AB3410E5CE6658A /* bind_json_simple_1_1_1 */,
-				5E35A76990FB8CB901EAA93B /* bind_json_simple_1_1_1-Test */,
-				E3B1074153720155CE2FAD5B /* Frameworks */,
-				E4D0AC41AE93D2363F736A41 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		97D9716449C74800000FF8DD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9927DC941CF5E0080091251D /* x_org_json_simple_ItemList.h */,
-				9927DC951CF5E0080091251D /* x_org_json_simple_ItemList.m */,
-				9927DC961CF5E0080091251D /* x_org_json_simple_JSONArray.h */,
-				9927DC971CF5E0080091251D /* x_org_json_simple_JSONArray.m */,
-				9927DC981CF5E0080091251D /* x_org_json_simple_JSONObject.h */,
-				9927DC991CF5E0080091251D /* x_org_json_simple_JSONObject.m */,
-				9927DC9A1CF5E0080091251D /* x_org_json_simple_JSONValue.h */,
-				9927DC9B1CF5E0080091251D /* x_org_json_simple_JSONValue.m */,
-				9927DC9C1CF5E0080091251D /* x_org_json_simple_parser_JSONParser.h */,
-				9927DC9D1CF5E0080091251D /* x_org_json_simple_parser_JSONParser.m */,
-				9927DC9E1CF5E0080091251D /* x_org_json_simple_parser_ParseException.h */,
-				9927DC9F1CF5E0080091251D /* x_org_json_simple_parser_ParseException.m */,
-				9927DCA01CF5E0080091251D /* x_org_json_simple_parser_Yytoken.h */,
-				9927DCA11CF5E0080091251D /* x_org_json_simple_parser_Yytoken.m */,
-				C980B8147A152511F35C11E1 /* main.cpp */,
-				B225922206421BA2008EB687 /* build.xcconfig */,
-				A6B5580F4A1D4363F3678A3F /* Info.plist */,
-				9B2C1907996549D66EFB7AFA /* preregister.txt */,
-				A95B9CB9599009FF32E2A101 /* application.jar */,
-				C53A7C30A3EF29C026AC934C /* LaunchScreen.xib */,
-				DE2E2291D78E7E8A49FE73D5 /* intel_logo.png */,
-				554C08A163C2FD96F68702A6 /* MainUI.storyboard */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E3B1074153720155CE2FAD5B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2A6E9C641D5133059A82DE32 /* MOE.framework */,
+				5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		E4D0AC41AE93D2363F736A41 /* Products */ = {
+		CB8637F11BE5952294DA76DB /* bind_json_simple_1_1_1 */ = {
 			isa = PBXGroup;
 			children = (
-				DEA2C515FC01224D2DF6A6ED /* bind_json_simple_1_1_1.app */,
-				68C95E3B3144CE54D2C0F28A /* bind_json_simple_1_1_1-Test.app */,
+				F2993A14C8A2A071BEF8F1DE /* Supporting Files */,
 			);
-			path = Products;
+			path = bind_json_simple_1_1_1;
+			sourceTree = "<group>";
+		};
+		F2993A14C8A2A071BEF8F1DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51101E67AA48DDF98EC7C483 /* main.cpp */,
+				87E457CDC7F16D76202D262E /* build.xcconfig */,
+				A24A66393C676FA0078F9A89 /* Info.plist */,
+				FDF1435540D9B05EB5213AC2 /* preregister.txt */,
+				5B2A07C89509259540FF4226 /* application.jar */,
+				91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */,
+				89C20D09E5F3BF976F61155B /* intel_logo.png */,
+				33CC748EBAA22B22FCE04050 /* MainUI.storyboard */,
+				9961872A1CF6D2F70026961A /* x_org_json_simple_ItemList.h */,
+				9961872B1CF6D2F70026961A /* x_org_json_simple_ItemList.m */,
+				9961872C1CF6D2F70026961A /* x_org_json_simple_JSONArray.h */,
+				9961872D1CF6D2F70026961A /* x_org_json_simple_JSONArray.m */,
+				9961872E1CF6D2F70026961A /* x_org_json_simple_JSONObject.h */,
+				9961872F1CF6D2F70026961A /* x_org_json_simple_JSONObject.m */,
+				996187301CF6D2F70026961A /* x_org_json_simple_JSONValue.h */,
+				996187311CF6D2F70026961A /* x_org_json_simple_JSONValue.m */,
+				996187321CF6D2F70026961A /* x_org_json_simple_parser_JSONParser.h */,
+				996187331CF6D2F70026961A /* x_org_json_simple_parser_JSONParser.m */,
+				996187341CF6D2F70026961A /* x_org_json_simple_parser_ParseException.h */,
+				996187351CF6D2F70026961A /* x_org_json_simple_parser_ParseException.m */,
+				996187361CF6D2F70026961A /* x_org_json_simple_parser_Yytoken.h */,
+				996187371CF6D2F70026961A /* x_org_json_simple_parser_Yytoken.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		409D335640786CD42108547F /* bind_json_simple_1_1_1 */ = {
+		5928483D0365A7AFE9E2B718 /* bind_json_simple_1_1_1-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2A60672C7F99955DC028EF9 /* Build configuration list for PBXNativeTarget "bind_json_simple_1_1_1" */;
+			buildConfigurationList = 2718D208598D92CE8201C5D9 /* Build configuration list for PBXNativeTarget "bind_json_simple_1_1_1-Test" */;
 			buildPhases = (
-				6DEA0BC2C1B4FDC2C126770E /* Compile Sources (MOE) */,
-				3FCB75A4C5DCA69B802B69C9 /* Frameworks */,
-				7AF82B7A8AF339DA66F688B8 /* Resources */,
-				FAF4023B72B39950D173423D /* Sources */,
-				3E221A16341EF53D32488ECD /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			name = bind_json_simple_1_1_1;
-			productName = bind_json_simple_1_1_1;
-			productReference = DEA2C515FC01224D2DF6A6ED /* bind_json_simple_1_1_1.app */;
-			productType = "com.apple.product-type.application";
-		};
-		5D8D522B2614FF5C89AD6E1B /* bind_json_simple_1_1_1-Test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B60357D3B8385B8F49A137C /* Build configuration list for PBXNativeTarget "bind_json_simple_1_1_1-Test" */;
-			buildPhases = (
-				79901B8CFF5FD1BA2BAE0DB7 /* Compile Sources (MOE) */,
-				CC128A1C7B61A3617CA8B7F0 /* Frameworks */,
-				5B08CBCBA8D7A5F9EA73818A /* Resources */,
-				457628E959C2387C830CB1B9 /* Sources */,
-				7C2463F58CC8E0B261C0A1E9 /* Embed Frameworks */,
+				1FCAFA82FEF2C662D51CE390 /* Compile Sources (MOE) */,
+				E3EDC72A6CEDEF59B2DB5CB4 /* Frameworks */,
+				33B3FF10A246E959EC8D3020 /* Resources */,
+				1EEFFFBF584697FE35D0E5E3 /* Sources */,
+				B67D9B0A69A0DF97E4CF4943 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			name = "bind_json_simple_1_1_1-Test";
 			productName = "bind_json_simple_1_1_1-Test";
-			productReference = 68C95E3B3144CE54D2C0F28A /* bind_json_simple_1_1_1-Test.app */;
+			productReference = 7D506F713CBA22F9C055CDCB /* bind_json_simple_1_1_1-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59E3EA0E1619AF4D72435EB6 /* bind_json_simple_1_1_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E67102930023E73FC14F8C /* Build configuration list for PBXNativeTarget "bind_json_simple_1_1_1" */;
+			buildPhases = (
+				648ED97CFFE50D8189ED358F /* Compile Sources (MOE) */,
+				B52332125692111D6E11FA8A /* Frameworks */,
+				2AD5FC45AC05873E72AD73A1 /* Resources */,
+				BB2053C89EA0D2B6E32F601A /* Sources */,
+				D9CD1A890E5C2E040C86DDCE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			name = bind_json_simple_1_1_1;
+			productName = bind_json_simple_1_1_1;
+			productReference = D6773CD15A0556CDC531BE20 /* bind_json_simple_1_1_1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2F4E9EAB0CE6F6AA45549003 /* Project object */ = {
+		6E93218E4519A163AD56FE2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "";
 			};
-			buildConfigurationList = 07EE09E18D5F35F80D8A7B96 /* Build configuration list for PBXProject "bind_json_simple_1_1_1" */;
+			buildConfigurationList = 1F353AFD5E1BAE0D8CDABCD2 /* Build configuration list for PBXProject "bind_json_simple_1_1_1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -245,58 +245,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 7A66C183F11D4FBBC244B541;
-			productRefGroup = E4D0AC41AE93D2363F736A41 /* Products */;
+			mainGroup = 0483945F06D7F588BFF54D97;
+			productRefGroup = 3D4163B8EF915B92C939A1E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				409D335640786CD42108547F /* bind_json_simple_1_1_1 */,
-				5D8D522B2614FF5C89AD6E1B /* bind_json_simple_1_1_1-Test */,
+				59E3EA0E1619AF4D72435EB6 /* bind_json_simple_1_1_1 */,
+				5928483D0365A7AFE9E2B718 /* bind_json_simple_1_1_1-Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B08CBCBA8D7A5F9EA73818A /* Resources */ = {
+		2AD5FC45AC05873E72AD73A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B2BBD407903A08FF89DBA5A /* preregister.txt in Resources */,
-				FE8B72F68054A414995C899E /* application.jar in Resources */,
-				DFFDF8572C068EAC81327ECF /* classlist.txt in Resources */,
+				F4828E66724FD402F9E5B01E /* preregister.txt in Resources */,
+				2B082351EFA619111B303B34 /* application.jar in Resources */,
+				EDC89D6BAEC60172D484F32C /* LaunchScreen.xib in Resources */,
+				2144EBDD188F6EC94F678477 /* intel_logo.png in Resources */,
+				E91C6748771C96BCF42DEF52 /* MainUI.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AF82B7A8AF339DA66F688B8 /* Resources */ = {
+		33B3FF10A246E959EC8D3020 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BBA446955B410CA1BB8937D /* preregister.txt in Resources */,
-				37051E9F895957452FC6B1D2 /* application.jar in Resources */,
-				F3498877ABEAFA8232973088 /* LaunchScreen.xib in Resources */,
-				1772B7E0DC166282EF2AC9D5 /* intel_logo.png in Resources */,
-				654F10C5E8FC26E04651657B /* MainUI.storyboard in Resources */,
+				134508335B008D40EEF19D23 /* preregister.txt in Resources */,
+				86C32166EC4D33D039BCECD0 /* application.jar in Resources */,
+				20A93F421B8A91211A508BE1 /* classlist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DEA0BC2C1B4FDC2C126770E /* Compile Sources (MOE) */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Compile Sources (MOE)";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "cd \"${SRCROOT}/..\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
-		};
-		79901B8CFF5FD1BA2BAE0DB7 /* Compile Sources (MOE) */ = {
+		1FCAFA82FEF2C662D51CE390 /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,36 +296,137 @@
 			shellPath = /bin/bash;
 			shellScript = "cd \"${SRCROOT}/..\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    export MOE_BUILD_SOURCE_SET=test\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
 		};
+		648ED97CFFE50D8189ED358F /* Compile Sources (MOE) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Sources (MOE)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${SRCROOT}/..\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		457628E959C2387C830CB1B9 /* Sources */ = {
+		1EEFFFBF584697FE35D0E5E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456765A59E4ECEBB5915136F /* main.cpp in Sources */,
+				107F067735AB941F707F7FE3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAF4023B72B39950D173423D /* Sources */ = {
+		BB2053C89EA0D2B6E32F601A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9927DCA21CF5E0080091251D /* x_org_json_simple_ItemList.m in Sources */,
-				E32EE491B7203351F1E36B83 /* main.cpp in Sources */,
-				9927DCA71CF5E0080091251D /* x_org_json_simple_parser_ParseException.m in Sources */,
-				9927DCA41CF5E0080091251D /* x_org_json_simple_JSONObject.m in Sources */,
-				9927DCA81CF5E0080091251D /* x_org_json_simple_parser_Yytoken.m in Sources */,
-				9927DCA51CF5E0080091251D /* x_org_json_simple_JSONValue.m in Sources */,
-				9927DCA31CF5E0080091251D /* x_org_json_simple_JSONArray.m in Sources */,
-				9927DCA61CF5E0080091251D /* x_org_json_simple_parser_JSONParser.m in Sources */,
+				996187381CF6D2F70026961A /* x_org_json_simple_ItemList.m in Sources */,
+				77A2ADADE1C09A78E0332692 /* main.cpp in Sources */,
+				9961873D1CF6D2F70026961A /* x_org_json_simple_parser_ParseException.m in Sources */,
+				9961873A1CF6D2F70026961A /* x_org_json_simple_JSONObject.m in Sources */,
+				9961873E1CF6D2F70026961A /* x_org_json_simple_parser_Yytoken.m in Sources */,
+				9961873B1CF6D2F70026961A /* x_org_json_simple_JSONValue.m in Sources */,
+				996187391CF6D2F70026961A /* x_org_json_simple_JSONArray.m in Sources */,
+				9961873C1CF6D2F70026961A /* x_org_json_simple_parser_JSONParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8F6D94E83569C45A370634B2 /* Debug */ = {
+		1529E4F4BB9567275F0599E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${MOE_FRAMEWORK_PATH}",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Volumes/Data/git/bind_json_simple_1_1_1/build/moe/xcodebuild/sym;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2977DCD3F54D22CAF8F96803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89EB6E4FBBB902954AF63292 /* build.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Info-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
+				PRODUCT_NAME = "bind_json_simple_1_1_1-Test";
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		85D0C41E5D02334281F09210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89EB6E4FBBB902954AF63292 /* build.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Info-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
+				PRODUCT_NAME = "bind_json_simple_1_1_1-Test";
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		9B1B58A8C927263324C933CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E457CDC7F16D76202D262E /* build.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = bind_json_simple_1_1_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
+				PRODUCT_NAME = bind_json_simple_1_1_1;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		B224FF3DE2C13EEEE7633F86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -381,14 +468,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = /Volumes/Data/work/bind_json_simple_1_1_1/build/moe/xcodebuild/sym;
+				SYMROOT = /Volumes/Data/git/bind_json_simple_1_1_1/build/moe/xcodebuild/sym;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C599F99337CDA2E05E6DFC25 /* Debug */ = {
+		F36B551027CF4ABD8D64C343 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B225922206421BA2008EB687 /* build.xcconfig */;
+			baseConfigurationReference = 87E457CDC7F16D76202D262E /* build.xcconfig */;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
@@ -398,127 +485,40 @@
 				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
 				PRODUCT_NAME = bind_json_simple_1_1_1;
 				STRIP_STYLE = "non-global";
-			};
-			name = Debug;
-		};
-		DE03461F30338500F2E1AFAA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 563C7942502A0658014F294F /* build.xcconfig */;
-			buildSettings = {
-				DEAD_CODE_STRIPPING = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "Info-Test.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = "bind_json_simple_1_1_1-Test";
-				STRIP_STYLE = "non-global";
-			};
-			name = Debug;
-		};
-		DF5F873EFABA2D56993D4543 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B225922206421BA2008EB687 /* build.xcconfig */;
-			buildSettings = {
-				DEAD_CODE_STRIPPING = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = bind_json_simple_1_1_1/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = bind_json_simple_1_1_1;
-				STRIP_STYLE = "non-global";
-			};
-			name = Release;
-		};
-		E776EBDA69AB10C032FCFC56 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 563C7942502A0658014F294F /* build.xcconfig */;
-			buildSettings = {
-				DEAD_CODE_STRIPPING = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "Info-Test.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = "bind_json_simple_1_1_1-Test";
-				STRIP_STYLE = "non-global";
-			};
-			name = Release;
-		};
-		F021764A087030E811236955 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"${MOE_FRAMEWORK_PATH}",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = "";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SYMROOT = /Volumes/Data/work/bind_json_simple_1_1_1/build/moe/xcodebuild/sym;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07EE09E18D5F35F80D8A7B96 /* Build configuration list for PBXProject "bind_json_simple_1_1_1" */ = {
+		1F353AFD5E1BAE0D8CDABCD2 /* Build configuration list for PBXProject "bind_json_simple_1_1_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F6D94E83569C45A370634B2 /* Debug */,
-				F021764A087030E811236955 /* Release */,
+				B224FF3DE2C13EEEE7633F86 /* Debug */,
+				1529E4F4BB9567275F0599E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B60357D3B8385B8F49A137C /* Build configuration list for PBXNativeTarget "bind_json_simple_1_1_1-Test" */ = {
+		2718D208598D92CE8201C5D9 /* Build configuration list for PBXNativeTarget "bind_json_simple_1_1_1-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE03461F30338500F2E1AFAA /* Debug */,
-				E776EBDA69AB10C032FCFC56 /* Release */,
+				2977DCD3F54D22CAF8F96803 /* Debug */,
+				85D0C41E5D02334281F09210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2A60672C7F99955DC028EF9 /* Build configuration list for PBXNativeTarget "bind_json_simple_1_1_1" */ = {
+		31E67102930023E73FC14F8C /* Build configuration list for PBXNativeTarget "bind_json_simple_1_1_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C599F99337CDA2E05E6DFC25 /* Debug */,
-				DF5F873EFABA2D56993D4543 /* Release */,
+				9B1B58A8C927263324C933CC /* Debug */,
+				F36B551027CF4ABD8D64C343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2F4E9EAB0CE6F6AA45549003 /* Project object */;
+	rootObject = 6E93218E4519A163AD56FE2D /* Project object */;
 }

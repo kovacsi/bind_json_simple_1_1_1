@@ -7,121 +7,127 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("x_org_json_simple_ItemList")
+@ObjCClassName("org_json_simple_ItemList")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
-public class ItemList extends NSObject {
-
-	private org.json.simple.ItemList original;
-
-	protected ItemList(Pointer peer) {
-		super(peer);
-	}
-
-	@Selector("valueWithString:")
-	public ItemList valueWithString(String arg0) {
-		ItemList self = (ItemList) ItemList.alloc().init();
-		self.original = new org.json.simple.ItemList(arg0);
-		return self;
-	}
-
-	@Selector("valueWithStringWithString::")
-	public ItemList valueWithStringWithString(String arg0, String arg1) {
-		ItemList self = (ItemList) ItemList.alloc().init();
-		self.original = new org.json.simple.ItemList(arg0, arg1);
-		return self;
-	}
-
-	@Selector("valueWithStringWithStringWithBoolean:::")
-	public ItemList valueWithStringWithStringWithBoolean(String arg0, String arg1, boolean arg2) {
-		ItemList self = (ItemList) ItemList.alloc().init();
-		self.original = new org.json.simple.ItemList(arg0, arg1, arg2);
-		return self;
-	}
-
-	@Selector("getItems")
-	public java.util.List getItems() {
-		return original.getItems();
-	}
-
-	@Selector("getArray")
+public class ItemList extends NSObject {	
+	
+	public org.json.simple.ItemList original;	
+	
+	protected ItemList(Pointer peer) {		
+		super(peer);		
+	}	
+	
+	@Selector("value")	
+	public ItemList value() {		
+		ItemList self = (ItemList) ItemList.alloc().init();		
+		self.original = new org.json.simple.ItemList();		
+		return self;		
+	}	
+	
+	@Selector("valueWithString:")	
+	public ItemList value(String arg0) {
+		ItemList self = (ItemList) ItemList.alloc().init();		
+		self.original = new org.json.simple.ItemList(arg0);		
+		return self;		
+	}	
+	
+	@Selector("valueWithString:withString:")	
+	public ItemList value(String arg0, String arg1) {
+		ItemList self = (ItemList) ItemList.alloc().init();		
+		self.original = new org.json.simple.ItemList(arg0, arg1);		
+		return self;		
+	}	
+	
+	@Selector("valueWithString:withString:withBoolean:")	
+	public ItemList value(String arg0, String arg1, boolean arg2) {
+		ItemList self = (ItemList) ItemList.alloc().init();		
+		self.original = new org.json.simple.ItemList(arg0, arg1, arg2);		
+		return self;		
+	}	
+	
+	@Selector("getItems")	
+	public java.util.List getItems() {		
+		return original.getItems();		
+	}	
+	
+	@Selector("getArray")	
 	public String[] getArray() {
-		return original.getArray();
-	}
-
-	@Selector("splitWithStringWithStringWithListWithBoolean::::")
-	public void splitWithStringWithStringWithListWithBoolean(String arg0, String arg1, java.util.List arg2, boolean arg3) {
-		original.split(arg0, arg1, arg2, arg3);
-	}
-
-	@Selector("splitWithStringWithStringWithList:::")
-	public void splitWithStringWithStringWithList(String arg0, String arg1, java.util.List arg2) {
-		original.split(arg0, arg1, arg2);
-	}
-
-	@Selector("setSPWithString:")
-	public void setSPWithString(String arg0) {
-		original.setSP(arg0);
-	}
-
-	@Selector("addWithIntWithString::")
-	public void addWithIntWithString(int arg0, String arg1) {
-		original.add(arg0, arg1);
-	}
-
-	@Selector("addWithString:")
-	public void addWithString(String arg0) {
-		original.add(arg0);
-	}
-
-	@Selector("addAllWithItemList:")
-	public void addAllWithItemList(org.json.simple.ItemList arg0) {
-		original.addAll(arg0);
-	}
-
-	@Selector("addAllWithString:")
-	public void addAllWithString(String arg0) {
-		original.addAll(arg0);
-	}
-
-	@Selector("addAllWithStringWithString::")
-	public void addAllWithStringWithString(String arg0, String arg1) {
-		original.addAll(arg0, arg1);
-	}
-
-	@Selector("addAllWithStringWithStringWithBoolean:::")
-	public void addAllWithStringWithStringWithBoolean(String arg0, String arg1, boolean arg2) {
-		original.addAll(arg0, arg1, arg2);
-	}
-
-	@Selector("getWithInt:")
-	public String getWithInt(int arg0) {
-		return original.get(arg0);
-	}
-
-	@Selector("size")
-	public int size() {
-		return original.size();
-	}
-
-	@Selector("toString")
+		return original.getArray();		
+	}	
+	
+	@Selector("splitWithString:withString:withList:withBoolean:")	
+	public void split(String arg0, String arg1, java.util.List arg2, boolean arg3) {
+		original.split(arg0, arg1, arg2, arg3);		
+	}	
+	
+	@Selector("splitWithString:withString:withList:")	
+	public void split(String arg0, String arg1, java.util.List arg2) {
+		original.split(arg0, arg1, arg2);		
+	}	
+	
+	@Selector("setSPWithString:")	
+	public void setSP(String arg0) {
+		original.setSP(arg0);		
+	}	
+	
+	@Selector("addWithInt:withString:")	
+	public void add(int arg0, String arg1) {
+		original.add(arg0, arg1);		
+	}	
+	
+	@Selector("addWithString:")	
+	public void add(String arg0) {
+		original.add(arg0);		
+	}	
+	
+	@Selector("addAllWithItemList:")	
+	public void addAll(org.json.simple.ItemList arg0) {		
+		original.addAll(arg0);		
+	}	
+	
+	@Selector("addAllWithString:")	
+	public void addAll(String arg0) {
+		original.addAll(arg0);		
+	}	
+	
+	@Selector("addAllWithString:withString:")	
+	public void addAll(String arg0, String arg1) {
+		original.addAll(arg0, arg1);		
+	}	
+	
+	@Selector("addAllWithString:withString:withBoolean:")	
+	public void addAll(String arg0, String arg1, boolean arg2) {
+		original.addAll(arg0, arg1, arg2);		
+	}	
+	
+	@Selector("getWithInt:")	
+	public String get(int arg0) {
+		return original.get(arg0);		
+	}	
+	
+	@Selector("size")	
+	public int size() {		
+		return original.size();		
+	}	
+	
+	@Selector("toString")	
 	public String toString() {
-		return original.toString();
-	}
-
-	@Selector("toStringWithString:")
-	public String toStringWithString(String arg0) {
-		return original.toString(arg0);
-	}
-
-	@Selector("clear")
-	public void clear() {
-		original.clear();
-	}
-
-	@Selector("reset")
-	public void reset() {
-		original.reset();
-	}
-
+		return original.toString();		
+	}	
+	
+	@Selector("toStringWithString:")	
+	public String toString(String arg0) {
+		return original.toString(arg0);		
+	}	
+	
+	@Selector("clear")	
+	public void clear() {		
+		original.clear();		
+	}	
+	
+	@Selector("reset")	
+	public void reset() {		
+		original.reset();		
+	}	
 }

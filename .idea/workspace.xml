@@ -2,66 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e33bff-801a-422e-be23-9d0d0932b682" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/bind_json_simple_1_1_1-Test.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/bind_json_simple_1_1_1.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_ItemList.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_ItemList.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONArray.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONArray.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONObject.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONObject.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONValue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONValue.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_JSONParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_JSONParser.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_ParseException.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_ParseException.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_Yytoken.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_Yytoken.m" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mattakiskft/bind_json_simple_1_1_1/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mattakiskft/bind_json_simple_1_1_1/ui/AppViewController.java" afterPath="$PROJECT_DIR$/src/main/java/com/migeran/bind/ui/AppViewController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_ItemList.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_ItemList.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_JSONArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_JSONArray.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_JSONObject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_JSONObject.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_JSONValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_JSONValue.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_parser_JSONParser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_parser_JSONParser.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_parser_ParseException.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_parser_ParseException.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_parser_Yytoken.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/org_json_simple_parser_Yytoken.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_ItemList.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_ItemList.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONArray.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONArray.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONObject.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONValue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONValue.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_JSONParser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_JSONParser.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_ParseException.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_ParseException.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_Yytoken.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_Yytoken.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bind_json_simple_1_1_1.iml" afterPath="$PROJECT_DIR$/bind_json_simple_1_1_1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/ItemList.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/ItemList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/JSONParser.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/JSONParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/ParseException.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/ParseException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/Yytoken.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/Yytoken.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/MainUI.storyboard" afterPath="$PROJECT_DIR$/src/main/resources/MainUI.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/layout/sample_design.ixml" afterPath="$PROJECT_DIR$/src/main/resources/layout/sample_design.ixml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/bind_json_simple_1_1_1-Test.xcscheme" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/bind_json_simple_1_1_1-Test.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/bind_json_simple_1_1_1.xcscheme" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/bind_json_simple_1_1_1.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/xcuserdata/kovacsi.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/Info.plist" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_ItemList.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_ItemList.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_ItemList.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_ItemList.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONArray.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONArray.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONArray.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONArray.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONObject.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONObject.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONObject.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONObject.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONValue.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONValue.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONValue.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_JSONValue.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_JSONParser.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_JSONParser.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_JSONParser.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_JSONParser.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_ParseException.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_ParseException.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_ParseException.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_ParseException.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_Yytoken.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_Yytoken.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_Yytoken.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/x_org_json_simple_parser_Yytoken.m" />
     </list>
     <ignored path="bind_json_simple_1_1_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3951613">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,20 +80,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/Yytoken.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.34034416">
               <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,9 +101,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -323,7 +303,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1464175575000" />
+        <entry key="$PROJECT_DIR$" value="1464242838000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -449,7 +429,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="460" />
+    <option name="x" value="255" />
     <option name="y" value="23" />
     <option name="width" value="1609" />
     <option name="height" value="937" />
@@ -508,6 +488,21 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_json_simple_1_1_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bind_json_simple_1_1_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -526,106 +521,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_json_simple_1_1_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_json_simple_1_1_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_json_simple_1_1_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_json_simple_1_1_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_json_simple_1_1_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_json_simple_1_1_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_json_simple_1_1_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bind_json_simple_1_1_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -907,7 +804,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="460" y="23" width="1609" height="937" extended-state="0" />
+    <frame x="255" y="23" width="1609" height="937" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -920,12 +817,12 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32600734" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Multi-OS Engine" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25909382" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27504787" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -948,56 +845,8 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="69" />
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/ui/AppViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,10 +858,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/ui/AppViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3951613">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/ui/AppViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/ui/AppViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/ui/AppViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/ui/AppViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/ui/AppViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/Yytoken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/migeran/bind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34034416">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>

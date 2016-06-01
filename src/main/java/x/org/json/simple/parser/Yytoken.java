@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_json_simple_parser_Yytoken")
+@ObjCClassName("Yytoken")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class Yytoken extends NSObject {	
@@ -19,7 +19,7 @@ public class Yytoken extends NSObject {
 	}	
 	
 	@Selector("valueWithInt:withObject:")	
-	public Yytoken value(int arg0, Object arg1) {
+	public Yytoken valueWithIntwithObject(int arg0, Object arg1) {
 		Yytoken self = (Yytoken) Yytoken.alloc().init();		
 		self.original = new org.json.simple.parser.Yytoken(arg0, arg1);		
 		return self;		

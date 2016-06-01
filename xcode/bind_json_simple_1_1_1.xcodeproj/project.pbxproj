@@ -16,13 +16,13 @@
 		4F209AABEDBDC93ACABA2F01 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		77A2ADADE1C09A78E0332692 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51101E67AA48DDF98EC7C483 /* main.cpp */; };
 		86C32166EC4D33D039BCECD0 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = AAF700D229A4CE445A9B2676 /* application.jar */; };
-		99796C7B1CFC9B3D004019D9 /* org_json_simple_ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 99796C6E1CFC9B3D004019D9 /* org_json_simple_ItemList.m */; };
-		99796C7C1CFC9B3D004019D9 /* org_json_simple_JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 99796C701CFC9B3D004019D9 /* org_json_simple_JSONArray.m */; };
-		99796C7D1CFC9B3D004019D9 /* org_json_simple_JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99796C721CFC9B3D004019D9 /* org_json_simple_JSONObject.m */; };
-		99796C7E1CFC9B3D004019D9 /* org_json_simple_JSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99796C741CFC9B3D004019D9 /* org_json_simple_JSONValue.m */; };
-		99796C7F1CFC9B3D004019D9 /* org_json_simple_parser_JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99796C761CFC9B3D004019D9 /* org_json_simple_parser_JSONParser.m */; };
-		99796C801CFC9B3D004019D9 /* org_json_simple_parser_ParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 99796C781CFC9B3D004019D9 /* org_json_simple_parser_ParseException.m */; };
-		99796C811CFC9B3D004019D9 /* org_json_simple_parser_Yytoken.m in Sources */ = {isa = PBXBuildFile; fileRef = 99796C7A1CFC9B3D004019D9 /* org_json_simple_parser_Yytoken.m */; };
+		991609301CFED43000D4A51C /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609231CFED43000D4A51C /* ItemList.m */; };
+		991609311CFED43000D4A51C /* JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609251CFED43000D4A51C /* JSONArray.m */; };
+		991609321CFED43000D4A51C /* JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609271CFED43000D4A51C /* JSONObject.m */; };
+		991609331CFED43000D4A51C /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609291CFED43000D4A51C /* JSONParser.m */; };
+		991609341CFED43000D4A51C /* JSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916092B1CFED43000D4A51C /* JSONValue.m */; };
+		991609351CFED43000D4A51C /* ParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916092D1CFED43000D4A51C /* ParseException.m */; };
+		991609361CFED43000D4A51C /* Yytoken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916092F1CFED43000D4A51C /* Yytoken.m */; };
 		C7B62D2170D5520063A0DAB1 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; };
 		E91C6748771C96BCF42DEF52 /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC748EBAA22B22FCE04050 /* MainUI.storyboard */; };
 		EDC89D6BAEC60172D484F32C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */; };
@@ -68,20 +68,20 @@
 		89EB6E4FBBB902954AF63292 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
 		8C94D4AEFD32CE8DC7A687FC /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; };
 		91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../src/main/resources/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
-		99796C6D1CFC9B3D004019D9 /* org_json_simple_ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_ItemList.h; sourceTree = "<group>"; };
-		99796C6E1CFC9B3D004019D9 /* org_json_simple_ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_ItemList.m; sourceTree = "<group>"; };
-		99796C6F1CFC9B3D004019D9 /* org_json_simple_JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONArray.h; sourceTree = "<group>"; };
-		99796C701CFC9B3D004019D9 /* org_json_simple_JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONArray.m; sourceTree = "<group>"; };
-		99796C711CFC9B3D004019D9 /* org_json_simple_JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONObject.h; sourceTree = "<group>"; };
-		99796C721CFC9B3D004019D9 /* org_json_simple_JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONObject.m; sourceTree = "<group>"; };
-		99796C731CFC9B3D004019D9 /* org_json_simple_JSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONValue.h; sourceTree = "<group>"; };
-		99796C741CFC9B3D004019D9 /* org_json_simple_JSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONValue.m; sourceTree = "<group>"; };
-		99796C751CFC9B3D004019D9 /* org_json_simple_parser_JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_parser_JSONParser.h; sourceTree = "<group>"; };
-		99796C761CFC9B3D004019D9 /* org_json_simple_parser_JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_parser_JSONParser.m; sourceTree = "<group>"; };
-		99796C771CFC9B3D004019D9 /* org_json_simple_parser_ParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_parser_ParseException.h; sourceTree = "<group>"; };
-		99796C781CFC9B3D004019D9 /* org_json_simple_parser_ParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_parser_ParseException.m; sourceTree = "<group>"; };
-		99796C791CFC9B3D004019D9 /* org_json_simple_parser_Yytoken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_parser_Yytoken.h; sourceTree = "<group>"; };
-		99796C7A1CFC9B3D004019D9 /* org_json_simple_parser_Yytoken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_parser_Yytoken.m; sourceTree = "<group>"; };
+		991609221CFED43000D4A51C /* ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemList.h; sourceTree = "<group>"; };
+		991609231CFED43000D4A51C /* ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemList.m; sourceTree = "<group>"; };
+		991609241CFED43000D4A51C /* JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONArray.h; sourceTree = "<group>"; };
+		991609251CFED43000D4A51C /* JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONArray.m; sourceTree = "<group>"; };
+		991609261CFED43000D4A51C /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
+		991609271CFED43000D4A51C /* JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObject.m; sourceTree = "<group>"; };
+		991609281CFED43000D4A51C /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		991609291CFED43000D4A51C /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
+		9916092A1CFED43000D4A51C /* JSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValue.h; sourceTree = "<group>"; };
+		9916092B1CFED43000D4A51C /* JSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValue.m; sourceTree = "<group>"; };
+		9916092C1CFED43000D4A51C /* ParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseException.h; sourceTree = "<group>"; };
+		9916092D1CFED43000D4A51C /* ParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseException.m; sourceTree = "<group>"; };
+		9916092E1CFED43000D4A51C /* Yytoken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yytoken.h; sourceTree = "<group>"; };
+		9916092F1CFED43000D4A51C /* Yytoken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yytoken.m; sourceTree = "<group>"; };
 		A24A66393C676FA0078F9A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = bind_json_simple_1_1_1/Info.plist; sourceTree = "<group>"; };
 		AAF700D229A4CE445A9B2676 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; };
 		D6773CD15A0556CDC531BE20 /* bind_json_simple_1_1_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bind_json_simple_1_1_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,20 +174,20 @@
 				91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */,
 				89C20D09E5F3BF976F61155B /* intel_logo.png */,
 				33CC748EBAA22B22FCE04050 /* MainUI.storyboard */,
-				99796C6D1CFC9B3D004019D9 /* org_json_simple_ItemList.h */,
-				99796C6E1CFC9B3D004019D9 /* org_json_simple_ItemList.m */,
-				99796C6F1CFC9B3D004019D9 /* org_json_simple_JSONArray.h */,
-				99796C701CFC9B3D004019D9 /* org_json_simple_JSONArray.m */,
-				99796C711CFC9B3D004019D9 /* org_json_simple_JSONObject.h */,
-				99796C721CFC9B3D004019D9 /* org_json_simple_JSONObject.m */,
-				99796C731CFC9B3D004019D9 /* org_json_simple_JSONValue.h */,
-				99796C741CFC9B3D004019D9 /* org_json_simple_JSONValue.m */,
-				99796C751CFC9B3D004019D9 /* org_json_simple_parser_JSONParser.h */,
-				99796C761CFC9B3D004019D9 /* org_json_simple_parser_JSONParser.m */,
-				99796C771CFC9B3D004019D9 /* org_json_simple_parser_ParseException.h */,
-				99796C781CFC9B3D004019D9 /* org_json_simple_parser_ParseException.m */,
-				99796C791CFC9B3D004019D9 /* org_json_simple_parser_Yytoken.h */,
-				99796C7A1CFC9B3D004019D9 /* org_json_simple_parser_Yytoken.m */,
+				991609221CFED43000D4A51C /* ItemList.h */,
+				991609231CFED43000D4A51C /* ItemList.m */,
+				991609241CFED43000D4A51C /* JSONArray.h */,
+				991609251CFED43000D4A51C /* JSONArray.m */,
+				991609261CFED43000D4A51C /* JSONObject.h */,
+				991609271CFED43000D4A51C /* JSONObject.m */,
+				991609281CFED43000D4A51C /* JSONParser.h */,
+				991609291CFED43000D4A51C /* JSONParser.m */,
+				9916092A1CFED43000D4A51C /* JSONValue.h */,
+				9916092B1CFED43000D4A51C /* JSONValue.m */,
+				9916092C1CFED43000D4A51C /* ParseException.h */,
+				9916092D1CFED43000D4A51C /* ParseException.m */,
+				9916092E1CFED43000D4A51C /* Yytoken.h */,
+				9916092F1CFED43000D4A51C /* Yytoken.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -325,14 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99796C7C1CFC9B3D004019D9 /* org_json_simple_JSONArray.m in Sources */,
-				99796C7D1CFC9B3D004019D9 /* org_json_simple_JSONObject.m in Sources */,
-				99796C7E1CFC9B3D004019D9 /* org_json_simple_JSONValue.m in Sources */,
+				991609321CFED43000D4A51C /* JSONObject.m in Sources */,
+				991609311CFED43000D4A51C /* JSONArray.m in Sources */,
+				991609301CFED43000D4A51C /* ItemList.m in Sources */,
+				991609341CFED43000D4A51C /* JSONValue.m in Sources */,
+				991609351CFED43000D4A51C /* ParseException.m in Sources */,
+				991609331CFED43000D4A51C /* JSONParser.m in Sources */,
 				77A2ADADE1C09A78E0332692 /* main.cpp in Sources */,
-				99796C7F1CFC9B3D004019D9 /* org_json_simple_parser_JSONParser.m in Sources */,
-				99796C7B1CFC9B3D004019D9 /* org_json_simple_ItemList.m in Sources */,
-				99796C811CFC9B3D004019D9 /* org_json_simple_parser_Yytoken.m in Sources */,
-				99796C801CFC9B3D004019D9 /* org_json_simple_parser_ParseException.m in Sources */,
+				991609361CFED43000D4A51C /* Yytoken.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

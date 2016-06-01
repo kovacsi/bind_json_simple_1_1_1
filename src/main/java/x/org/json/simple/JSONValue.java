@@ -7,7 +7,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("org_json_simple_JSONValue")
+@ObjCClassName("JSONValue")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class JSONValue extends NSObject {	
@@ -26,37 +26,37 @@ public class JSONValue extends NSObject {
 	}	
 	
 	@Selector("parseWithReader:")	
-	public static Object parse(java.io.Reader arg0) {
+	public static Object parseWithReader(java.io.Reader arg0) {
 		return org.json.simple.JSONValue.parse(arg0);		
 	}	
 	
 	@Selector("parseWithString:")	
-	public static Object parse(String arg0) {
+	public static Object parseWithString(String arg0) {
 		return org.json.simple.JSONValue.parse(arg0);		
 	}	
 	
 	@Selector("parseWithExceptionWithReader:")	
-	public static Object parseWithException(java.io.Reader arg0) throws java.io.IOException, org.json.simple.parser.ParseException {
+	public static Object parseWithExceptionWithReader(java.io.Reader arg0) throws java.io.IOException, org.json.simple.parser.ParseException {
 		return org.json.simple.JSONValue.parseWithException(arg0);		
 	}	
 	
 	@Selector("parseWithExceptionWithString:")	
-	public static Object parseWithException(String arg0) throws org.json.simple.parser.ParseException {
+	public static Object parseWithExceptionWithString(String arg0) throws org.json.simple.parser.ParseException {
 		return org.json.simple.JSONValue.parseWithException(arg0);		
 	}	
 	
 	@Selector("writeJSONStringWithObject:withWriter:")	
-	public static void writeJSONString(Object arg0, java.io.Writer arg1) throws java.io.IOException {
+	public static void writeJSONStringWithObjectwithWriter(Object arg0, java.io.Writer arg1) throws java.io.IOException {
 		org.json.simple.JSONValue.writeJSONString(arg0, arg1);		
 	}	
 	
 	@Selector("toJSONStringWithObject:")	
-	public static String toJSONString(Object arg0) {
+	public static String toJSONStringWithObject(Object arg0) {
 		return org.json.simple.JSONValue.toJSONString(arg0);		
 	}	
 	
 	@Selector("escapeWithString:")	
-	public static String escape(String arg0) {
+	public static String escapeWithString(String arg0) {
 		return org.json.simple.JSONValue.escape(arg0);		
 	}	
 }

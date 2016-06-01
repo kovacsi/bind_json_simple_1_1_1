@@ -1,8 +1,8 @@
-#import "org_json_simple_JSONValue.h"
+#import "JSONValue.h"
 
-@implementation org_json_simple_JSONValue
+@implementation JSONValue
 
-+ (org_json_simple_JSONValue*)value {
++ (JSONValue*)value {
 	return nil;
 }
 

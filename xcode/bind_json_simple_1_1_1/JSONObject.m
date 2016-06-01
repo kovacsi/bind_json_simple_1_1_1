@@ -1,12 +1,12 @@
-#import "org_json_simple_JSONObject.h"
+#import "JSONObject.h"
 
-@implementation org_json_simple_JSONObject
+@implementation JSONObject
 
-+ (org_json_simple_JSONObject*)value {
++ (JSONObject*)value {
 	return nil;
 }
 
-+ (org_json_simple_JSONObject*)valueWithMap:(id)arg0 {
++ (JSONObject*)valueWithMap:(id)arg0 {
 	return nil;
 }
 

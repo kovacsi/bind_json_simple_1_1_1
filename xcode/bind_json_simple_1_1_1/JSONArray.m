@@ -1,12 +1,12 @@
-#import "org_json_simple_JSONArray.h"
+#import "JSONArray.h"
 
-@implementation org_json_simple_JSONArray
+@implementation JSONArray
 
-+ (org_json_simple_JSONArray*)value {
++ (JSONArray*)value {
 	return nil;
 }
 
-+ (org_json_simple_JSONArray*)valueWithCollection:(id)arg0 {
++ (JSONArray*)valueWithCollection:(id)arg0 {
 	return nil;
 }
 

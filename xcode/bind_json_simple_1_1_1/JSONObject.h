@@ -1,9 +1,9 @@
 #import <Foundation/Foundation.h>
 
-@interface org_json_simple_JSONObject : NSObject
+@interface JSONObject : NSObject
 
-+ (org_json_simple_JSONObject*)value;
-+ (org_json_simple_JSONObject*)valueWithMap:(id)arg0;
++ (JSONObject*)value;
++ (JSONObject*)valueWithMap:(id)arg0;
 + (void)writeJSONStringWithMap:(id)arg0 withWriter:(id)arg1;
 - (void)writeJSONStringWithWriter:(id)arg0;
 + (NSString*)toJSONStringWithMap:(id)arg0;

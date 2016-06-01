@@ -1,8 +1,8 @@
-#import "org_json_simple_parser_JSONParser.h"
+#import "JSONParser.h"
 
-@implementation org_json_simple_parser_JSONParser
+@implementation JSONParser
 
-+ (org_json_simple_parser_JSONParser*)value {
++ (JSONParser*)value {
 	return nil;
 }
 

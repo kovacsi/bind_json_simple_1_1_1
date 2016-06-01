@@ -1,8 +1,8 @@
 #import <Foundation/Foundation.h>
 
-@interface org_json_simple_parser_JSONParser : NSObject
+@interface JSONParser : NSObject
 
-+ (org_json_simple_parser_JSONParser*)value;
++ (JSONParser*)value;
 - (void)reset;
 - (void)resetWithReader:(id)arg0;
 - (int)getPosition;

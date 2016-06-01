@@ -1,20 +1,20 @@
-#import "org_json_simple_ItemList.h"
+#import "ItemList.h"
 
-@implementation org_json_simple_ItemList
+@implementation ItemList
 
-+ (org_json_simple_ItemList*)value {
++ (ItemList*)value {
 	return nil;
 }
 
-+ (org_json_simple_ItemList*)valueWithString:(NSString*)arg0 {
++ (ItemList*)valueWithString:(NSString*)arg0 {
 	return nil;
 }
 
-+ (org_json_simple_ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 {
++ (ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 {
 	return nil;
 }
 
-+ (org_json_simple_ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 withBoolean:(bool)arg2 {
++ (ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 withBoolean:(bool)arg2 {
 	return nil;
 }
 
@@ -46,7 +46,7 @@
 
 }
 
-- (void)addAllWithItemList:(org_json_simple_ItemList*)arg0 {
+- (void)addAllWithItemList:(ItemList*)arg0 {
 
 }
 

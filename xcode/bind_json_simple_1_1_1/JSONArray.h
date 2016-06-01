@@ -1,9 +1,9 @@
 #import <Foundation/Foundation.h>
 
-@interface org_json_simple_JSONArray : NSObject
+@interface JSONArray : NSObject
 
-+ (org_json_simple_JSONArray*)value;
-+ (org_json_simple_JSONArray*)valueWithCollection:(id)arg0;
++ (JSONArray*)value;
++ (JSONArray*)valueWithCollection:(id)arg0;
 + (void)writeJSONStringWithCollection:(id)arg0 withWriter:(id)arg1;
 - (void)writeJSONStringWithWriter:(id)arg0;
 + (NSString*)toJSONStringWithCollection:(id)arg0;

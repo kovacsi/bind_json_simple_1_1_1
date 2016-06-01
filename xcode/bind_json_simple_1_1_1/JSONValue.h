@@ -1,8 +1,8 @@
 #import <Foundation/Foundation.h>
 
-@interface org_json_simple_JSONValue : NSObject
+@interface JSONValue : NSObject
 
-+ (org_json_simple_JSONValue*)value;
++ (JSONValue*)value;
 + (id)parseWithReader:(id)arg0;
 + (id)parseWithString:(NSString*)arg0;
 + (id)parseWithExceptionWithReader:(id)arg0;

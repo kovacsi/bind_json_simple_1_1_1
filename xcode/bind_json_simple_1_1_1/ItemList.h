@@ -1,11 +1,11 @@
 #import <Foundation/Foundation.h>
 
-@interface org_json_simple_ItemList : NSObject
+@interface ItemList : NSObject
 
-+ (org_json_simple_ItemList*)value;
-+ (org_json_simple_ItemList*)valueWithString:(NSString*)arg0;
-+ (org_json_simple_ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1;
-+ (org_json_simple_ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 withBoolean:(bool)arg2;
++ (ItemList*)value;
++ (ItemList*)valueWithString:(NSString*)arg0;
++ (ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1;
++ (ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 withBoolean:(bool)arg2;
 - (id)getItems;
 - (id)getArray;
 - (void)splitWithString:(NSString*)arg0 withString:(NSString*)arg1 withList:(id)arg2 withBoolean:(bool)arg3;
@@ -13,7 +13,7 @@
 - (void)setSPWithString:(NSString*)arg0;
 - (void)addWithInt:(int)arg0 withString:(NSString*)arg1;
 - (void)addWithString:(NSString*)arg0;
-- (void)addAllWithItemList:(org_json_simple_ItemList*)arg0;
+- (void)addAllWithItemList:(ItemList*)arg0;
 - (void)addAllWithString:(NSString*)arg0;
 - (void)addAllWithString:(NSString*)arg0 withString:(NSString*)arg1;
 - (void)addAllWithString:(NSString*)arg0 withString:(NSString*)arg1 withBoolean:(bool)arg2;

@@ -1,9 +1,10 @@
 #import <Foundation/Foundation.h>
 
-@interface JSONArray : NSObject
 
-+ (JSONArray*)value;
-+ (JSONArray*)valueWithCollection:(id)arg0;
+@interface JBJSONArray : NSObject
+
++ (JBJSONArray*)value;
++ (JBJSONArray*)valueWithCollection:(id)arg0;
 + (void)writeJSONStringWithCollection:(id)arg0 withWriter:(id)arg1;
 - (void)writeJSONStringWithWriter:(id)arg0;
 + (NSString*)toJSONStringWithCollection:(id)arg0;

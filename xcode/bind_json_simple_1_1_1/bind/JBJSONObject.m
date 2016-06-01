@@ -1,12 +1,12 @@
-#import "JSONObject.h"
+#import "JBJSONObject.h"
 
-@implementation JSONObject
+@implementation JBJSONObject
 
-+ (JSONObject*)value {
++ (JBJSONObject*)value {
 	return nil;
 }
 
-+ (JSONObject*)valueWithMap:(id)arg0 {
++ (JBJSONObject*)valueWithMap:(id)arg0 {
 	return nil;
 }
 

@@ -1,8 +1,9 @@
 #import <Foundation/Foundation.h>
 
-@interface JSONValue : NSObject
 
-+ (JSONValue*)value;
+@interface JBJSONValue : NSObject
+
++ (JBJSONValue*)value;
 + (id)parseWithReader:(id)arg0;
 + (id)parseWithString:(NSString*)arg0;
 + (id)parseWithExceptionWithReader:(id)arg0;

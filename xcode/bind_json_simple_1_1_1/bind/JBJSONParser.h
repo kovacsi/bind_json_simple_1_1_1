@@ -1,8 +1,17 @@
 #import <Foundation/Foundation.h>
 
-@interface JSONParser : NSObject
+#define S_INIT 0
+#define S_IN_FINISHED_VALUE 1
+#define S_IN_OBJECT 2
+#define S_IN_ARRAY 3
+#define S_PASSED_PAIR_KEY 4
+#define S_IN_PAIR_VALUE 5
+#define S_END 6
+#define S_IN_ERROR -1
 
-+ (JSONParser*)value;
+@interface JBJSONParser : NSObject
+
++ (JBJSONParser*)value;
 - (void)reset;
 - (void)resetWithReader:(id)arg0;
 - (int)getPosition;

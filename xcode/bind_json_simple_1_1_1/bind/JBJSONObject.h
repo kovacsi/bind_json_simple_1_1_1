@@ -1,9 +1,10 @@
 #import <Foundation/Foundation.h>
 
-@interface JSONObject : NSObject
 
-+ (JSONObject*)value;
-+ (JSONObject*)valueWithMap:(id)arg0;
+@interface JBJSONObject : NSObject
+
++ (JBJSONObject*)value;
++ (JBJSONObject*)valueWithMap:(id)arg0;
 + (void)writeJSONStringWithMap:(id)arg0 withWriter:(id)arg1;
 - (void)writeJSONStringWithWriter:(id)arg0;
 + (NSString*)toJSONStringWithMap:(id)arg0;

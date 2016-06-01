@@ -1,20 +1,20 @@
-#import "ItemList.h"
+#import "JBItemList.h"
 
-@implementation ItemList
+@implementation JBItemList
 
-+ (ItemList*)value {
++ (JBItemList*)value {
 	return nil;
 }
 
-+ (ItemList*)valueWithString:(NSString*)arg0 {
++ (JBItemList*)valueWithString:(NSString*)arg0 {
 	return nil;
 }
 
-+ (ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 {
++ (JBItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 {
 	return nil;
 }
 
-+ (ItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 withBoolean:(bool)arg2 {
++ (JBItemList*)valueWithString:(NSString*)arg0 withString:(NSString*)arg1 withBoolean:(bool)arg2 {
 	return nil;
 }
 
@@ -46,7 +46,7 @@
 
 }
 
-- (void)addAllWithItemList:(ItemList*)arg0 {
+- (void)addAllWithItemList:(JBItemList*)arg0 {
 
 }
 

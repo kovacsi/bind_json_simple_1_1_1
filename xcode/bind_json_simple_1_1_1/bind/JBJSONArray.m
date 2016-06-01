@@ -1,12 +1,12 @@
-#import "JSONArray.h"
+#import "JBJSONArray.h"
 
-@implementation JSONArray
+@implementation JBJSONArray
 
-+ (JSONArray*)value {
++ (JBJSONArray*)value {
 	return nil;
 }
 
-+ (JSONArray*)valueWithCollection:(id)arg0 {
++ (JBJSONArray*)valueWithCollection:(id)arg0 {
 	return nil;
 }
 

@@ -1,8 +1,8 @@
-#import "JSONParser.h"
+#import "JBJSONParser.h"
 
-@implementation JSONParser
+@implementation JBJSONParser
 
-+ (JSONParser*)value {
++ (JBJSONParser*)value {
 	return nil;
 }
 

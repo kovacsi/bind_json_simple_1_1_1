@@ -1,13 +1,14 @@
 package x.org.json.simple;
 
 import com.intel.moe.natj.general.Pointer;
+import com.intel.moe.natj.general.ann.Owned;
 import com.intel.moe.natj.general.ann.RegisterOnStartup;
 import com.intel.moe.natj.objc.ObjCRuntime;
 import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("JSONObject")
+@ObjCClassName("JBJSONObject")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class JSONObject extends NSObject {	
@@ -17,6 +18,10 @@ public class JSONObject extends NSObject {
 	protected JSONObject(Pointer peer) {		
 		super(peer);		
 	}	
+	
+	@Owned	
+	@Selector("alloc")	
+	public static native JSONObject alloc();	
 	
 	@Selector("value")	
 	public JSONObject value() {		

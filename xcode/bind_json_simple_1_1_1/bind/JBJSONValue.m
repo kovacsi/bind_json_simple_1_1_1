@@ -1,8 +1,8 @@
-#import "JSONValue.h"
+#import "JBJSONValue.h"
 
-@implementation JSONValue
+@implementation JBJSONValue
 
-+ (JSONValue*)value {
++ (JBJSONValue*)value {
 	return nil;
 }
 

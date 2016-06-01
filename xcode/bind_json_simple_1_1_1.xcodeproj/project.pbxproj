@@ -16,13 +16,13 @@
 		4F209AABEDBDC93ACABA2F01 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		77A2ADADE1C09A78E0332692 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51101E67AA48DDF98EC7C483 /* main.cpp */; };
 		86C32166EC4D33D039BCECD0 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = AAF700D229A4CE445A9B2676 /* application.jar */; };
-		991609301CFED43000D4A51C /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609231CFED43000D4A51C /* ItemList.m */; };
-		991609311CFED43000D4A51C /* JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609251CFED43000D4A51C /* JSONArray.m */; };
-		991609321CFED43000D4A51C /* JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609271CFED43000D4A51C /* JSONObject.m */; };
-		991609331CFED43000D4A51C /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 991609291CFED43000D4A51C /* JSONParser.m */; };
-		991609341CFED43000D4A51C /* JSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916092B1CFED43000D4A51C /* JSONValue.m */; };
-		991609351CFED43000D4A51C /* ParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916092D1CFED43000D4A51C /* ParseException.m */; };
-		991609361CFED43000D4A51C /* Yytoken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916092F1CFED43000D4A51C /* Yytoken.m */; };
+		99160B531CFF3A8D00D4A51C /* JBItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160B461CFF3A8D00D4A51C /* JBItemList.m */; };
+		99160B541CFF3A8D00D4A51C /* JBJSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160B481CFF3A8D00D4A51C /* JBJSONArray.m */; };
+		99160B551CFF3A8D00D4A51C /* JBJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160B4A1CFF3A8D00D4A51C /* JBJSONObject.m */; };
+		99160B561CFF3A8D00D4A51C /* JBJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160B4C1CFF3A8D00D4A51C /* JBJSONParser.m */; };
+		99160B571CFF3A8D00D4A51C /* JBJSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160B4E1CFF3A8D00D4A51C /* JBJSONValue.m */; };
+		99160B581CFF3A8D00D4A51C /* JBParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160B501CFF3A8D00D4A51C /* JBParseException.m */; };
+		99160B591CFF3A8D00D4A51C /* JBYytoken.m in Sources */ = {isa = PBXBuildFile; fileRef = 99160B521CFF3A8D00D4A51C /* JBYytoken.m */; };
 		C7B62D2170D5520063A0DAB1 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; };
 		E91C6748771C96BCF42DEF52 /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC748EBAA22B22FCE04050 /* MainUI.storyboard */; };
 		EDC89D6BAEC60172D484F32C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */; };
@@ -68,20 +68,20 @@
 		89EB6E4FBBB902954AF63292 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
 		8C94D4AEFD32CE8DC7A687FC /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; };
 		91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../src/main/resources/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
-		991609221CFED43000D4A51C /* ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemList.h; sourceTree = "<group>"; };
-		991609231CFED43000D4A51C /* ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemList.m; sourceTree = "<group>"; };
-		991609241CFED43000D4A51C /* JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONArray.h; sourceTree = "<group>"; };
-		991609251CFED43000D4A51C /* JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONArray.m; sourceTree = "<group>"; };
-		991609261CFED43000D4A51C /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
-		991609271CFED43000D4A51C /* JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObject.m; sourceTree = "<group>"; };
-		991609281CFED43000D4A51C /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
-		991609291CFED43000D4A51C /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
-		9916092A1CFED43000D4A51C /* JSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValue.h; sourceTree = "<group>"; };
-		9916092B1CFED43000D4A51C /* JSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValue.m; sourceTree = "<group>"; };
-		9916092C1CFED43000D4A51C /* ParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseException.h; sourceTree = "<group>"; };
-		9916092D1CFED43000D4A51C /* ParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseException.m; sourceTree = "<group>"; };
-		9916092E1CFED43000D4A51C /* Yytoken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yytoken.h; sourceTree = "<group>"; };
-		9916092F1CFED43000D4A51C /* Yytoken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yytoken.m; sourceTree = "<group>"; };
+		99160B451CFF3A8D00D4A51C /* JBItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBItemList.h; sourceTree = "<group>"; };
+		99160B461CFF3A8D00D4A51C /* JBItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBItemList.m; sourceTree = "<group>"; };
+		99160B471CFF3A8D00D4A51C /* JBJSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBJSONArray.h; sourceTree = "<group>"; };
+		99160B481CFF3A8D00D4A51C /* JBJSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBJSONArray.m; sourceTree = "<group>"; };
+		99160B491CFF3A8D00D4A51C /* JBJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBJSONObject.h; sourceTree = "<group>"; };
+		99160B4A1CFF3A8D00D4A51C /* JBJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBJSONObject.m; sourceTree = "<group>"; };
+		99160B4B1CFF3A8D00D4A51C /* JBJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBJSONParser.h; sourceTree = "<group>"; };
+		99160B4C1CFF3A8D00D4A51C /* JBJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBJSONParser.m; sourceTree = "<group>"; };
+		99160B4D1CFF3A8D00D4A51C /* JBJSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBJSONValue.h; sourceTree = "<group>"; };
+		99160B4E1CFF3A8D00D4A51C /* JBJSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBJSONValue.m; sourceTree = "<group>"; };
+		99160B4F1CFF3A8D00D4A51C /* JBParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBParseException.h; sourceTree = "<group>"; };
+		99160B501CFF3A8D00D4A51C /* JBParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBParseException.m; sourceTree = "<group>"; };
+		99160B511CFF3A8D00D4A51C /* JBYytoken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBYytoken.h; sourceTree = "<group>"; };
+		99160B521CFF3A8D00D4A51C /* JBYytoken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBYytoken.m; sourceTree = "<group>"; };
 		A24A66393C676FA0078F9A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = bind_json_simple_1_1_1/Info.plist; sourceTree = "<group>"; };
 		AAF700D229A4CE445A9B2676 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; };
 		D6773CD15A0556CDC531BE20 /* bind_json_simple_1_1_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bind_json_simple_1_1_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,9 +155,31 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		99160B441CFF3A8D00D4A51C /* bind */ = {
+			isa = PBXGroup;
+			children = (
+				99160B451CFF3A8D00D4A51C /* JBItemList.h */,
+				99160B461CFF3A8D00D4A51C /* JBItemList.m */,
+				99160B471CFF3A8D00D4A51C /* JBJSONArray.h */,
+				99160B481CFF3A8D00D4A51C /* JBJSONArray.m */,
+				99160B491CFF3A8D00D4A51C /* JBJSONObject.h */,
+				99160B4A1CFF3A8D00D4A51C /* JBJSONObject.m */,
+				99160B4B1CFF3A8D00D4A51C /* JBJSONParser.h */,
+				99160B4C1CFF3A8D00D4A51C /* JBJSONParser.m */,
+				99160B4D1CFF3A8D00D4A51C /* JBJSONValue.h */,
+				99160B4E1CFF3A8D00D4A51C /* JBJSONValue.m */,
+				99160B4F1CFF3A8D00D4A51C /* JBParseException.h */,
+				99160B501CFF3A8D00D4A51C /* JBParseException.m */,
+				99160B511CFF3A8D00D4A51C /* JBYytoken.h */,
+				99160B521CFF3A8D00D4A51C /* JBYytoken.m */,
+			);
+			path = bind;
+			sourceTree = "<group>";
+		};
 		CB8637F11BE5952294DA76DB /* bind_json_simple_1_1_1 */ = {
 			isa = PBXGroup;
 			children = (
+				99160B441CFF3A8D00D4A51C /* bind */,
 				F2993A14C8A2A071BEF8F1DE /* Supporting Files */,
 			);
 			path = bind_json_simple_1_1_1;
@@ -174,20 +196,6 @@
 				91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */,
 				89C20D09E5F3BF976F61155B /* intel_logo.png */,
 				33CC748EBAA22B22FCE04050 /* MainUI.storyboard */,
-				991609221CFED43000D4A51C /* ItemList.h */,
-				991609231CFED43000D4A51C /* ItemList.m */,
-				991609241CFED43000D4A51C /* JSONArray.h */,
-				991609251CFED43000D4A51C /* JSONArray.m */,
-				991609261CFED43000D4A51C /* JSONObject.h */,
-				991609271CFED43000D4A51C /* JSONObject.m */,
-				991609281CFED43000D4A51C /* JSONParser.h */,
-				991609291CFED43000D4A51C /* JSONParser.m */,
-				9916092A1CFED43000D4A51C /* JSONValue.h */,
-				9916092B1CFED43000D4A51C /* JSONValue.m */,
-				9916092C1CFED43000D4A51C /* ParseException.h */,
-				9916092D1CFED43000D4A51C /* ParseException.m */,
-				9916092E1CFED43000D4A51C /* Yytoken.h */,
-				9916092F1CFED43000D4A51C /* Yytoken.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -325,14 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				991609321CFED43000D4A51C /* JSONObject.m in Sources */,
-				991609311CFED43000D4A51C /* JSONArray.m in Sources */,
-				991609301CFED43000D4A51C /* ItemList.m in Sources */,
-				991609341CFED43000D4A51C /* JSONValue.m in Sources */,
-				991609351CFED43000D4A51C /* ParseException.m in Sources */,
-				991609331CFED43000D4A51C /* JSONParser.m in Sources */,
+				99160B561CFF3A8D00D4A51C /* JBJSONParser.m in Sources */,
+				99160B571CFF3A8D00D4A51C /* JBJSONValue.m in Sources */,
+				99160B531CFF3A8D00D4A51C /* JBItemList.m in Sources */,
+				99160B541CFF3A8D00D4A51C /* JBJSONArray.m in Sources */,
+				99160B551CFF3A8D00D4A51C /* JBJSONObject.m in Sources */,
+				99160B591CFF3A8D00D4A51C /* JBYytoken.m in Sources */,
 				77A2ADADE1C09A78E0332692 /* main.cpp in Sources */,
-				991609361CFED43000D4A51C /* Yytoken.m in Sources */,
+				99160B581CFF3A8D00D4A51C /* JBParseException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

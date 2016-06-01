@@ -1,16 +1,16 @@
-#import "ParseException.h"
+#import "JBParseException.h"
 
-@implementation ParseException
+@implementation JBParseException
 
-+ (ParseException*)valueWithInt:(int)arg0 {
++ (JBParseException*)valueWithInt:(int)arg0 {
 	return nil;
 }
 
-+ (ParseException*)valueWithInt:(int)arg0 withObject:(id)arg1 {
++ (JBParseException*)valueWithInt:(int)arg0 withObject:(id)arg1 {
 	return nil;
 }
 
-+ (ParseException*)valueWithInt:(int)arg0 withInt:(int)arg1 withObject:(id)arg2 {
++ (JBParseException*)valueWithInt:(int)arg0 withInt:(int)arg1 withObject:(id)arg2 {
 	return nil;
 }
 

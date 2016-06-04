@@ -8,7 +8,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("JBJSONValue")
+@ObjCClassName("org_json_simple_JSONValue")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class JSONValue extends NSObject {	
@@ -50,8 +50,8 @@ public class JSONValue extends NSObject {
 		return org.json.simple.JSONValue.parseWithException(arg0);		
 	}	
 	
-	@Selector("writeJSONStringWithObject:withWriter:")	
-	public static void writeJSONStringWithObjectwithWriter(Object arg0, java.io.Writer arg1) throws java.io.IOException {
+	@Selector("writeJSONStringWithObject:Writer:")	
+	public static void writeJSONStringWithObjectWriter(Object arg0, java.io.Writer arg1) throws java.io.IOException {
 		org.json.simple.JSONValue.writeJSONString(arg0, arg1);		
 	}	
 	
@@ -63,5 +63,20 @@ public class JSONValue extends NSObject {
 	@Selector("escapeWithString:")	
 	public static String escapeWithString(String arg0) {
 		return org.json.simple.JSONValue.escape(arg0);		
+	}	
+	
+	@Selector("hashCode")	
+	public int hashCode() {		
+		return original.hashCode();		
+	}	
+	
+	@Selector("equalsWithObject:")	
+	public boolean equalsWithObject(Object arg0) {
+		return original.equals(arg0);		
+	}	
+	
+	@Selector("toString")	
+	public String toString() {
+		return original.toString();		
 	}	
 }

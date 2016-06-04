@@ -1,8 +1,8 @@
-#import "JBJSONValue.h"
+#import "org_json_simple_JSONValue.h"
 
-@implementation JBJSONValue
+@implementation org_json_simple_JSONValue
 
-+ (JBJSONValue*)value {
++ (org_json_simple_JSONValue*)value {
 	return nil;
 }
 
@@ -22,7 +22,7 @@
 	return nil;
 }
 
-+ (void)writeJSONStringWithObject:(id)arg0 withWriter:(id)arg1 {
++ (void)writeJSONStringWithObject:(id)arg0 Writer:(id)arg1 {
 
 }
 
@@ -31,6 +31,18 @@
 }
 
 + (NSString*)escapeWithString:(NSString*)arg0 {
+	return nil;
+}
+
+- (int)hashCode {
+	return 0;
+}
+
+- (bool)equalsWithObject:(id)arg0 {
+	return 0;
+}
+
+- (NSString*)toString {
 	return nil;
 }
 

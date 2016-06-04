@@ -8,7 +8,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("JBParseException")
+@ObjCClassName("org_json_simple_parser_ParseException")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class ParseException extends NSObject {	
@@ -30,15 +30,15 @@ public class ParseException extends NSObject {
 		return self;		
 	}	
 	
-	@Selector("valueWithInt:withObject:")	
-	public ParseException valueWithIntwithObject(int arg0, Object arg1) {
+	@Selector("valueWithInt:Object:")	
+	public ParseException valueWithIntObject(int arg0, Object arg1) {
 		ParseException self = (ParseException) ParseException.alloc().init();		
 		self.original = new org.json.simple.parser.ParseException(arg0, arg1);		
 		return self;		
 	}	
 	
-	@Selector("valueWithInt:withInt:withObject:")	
-	public ParseException valueWithIntwithIntwithObject(int arg0, int arg1, Object arg2) {
+	@Selector("valueWithInt:Int:Object:")	
+	public ParseException valueWithIntIntObject(int arg0, int arg1, Object arg2) {
 		ParseException self = (ParseException) ParseException.alloc().init();		
 		self.original = new org.json.simple.parser.ParseException(arg0, arg1, arg2);		
 		return self;		

@@ -1,16 +1,16 @@
-#import "JBParseException.h"
+#import "org_json_simple_parser_ParseException.h"
 
-@implementation JBParseException
+@implementation org_json_simple_parser_ParseException
 
-+ (JBParseException*)valueWithInt:(int)arg0 {
++ (org_json_simple_parser_ParseException*)valueWithInt:(int)arg0 {
 	return nil;
 }
 
-+ (JBParseException*)valueWithInt:(int)arg0 withObject:(id)arg1 {
++ (org_json_simple_parser_ParseException*)valueWithInt:(int)arg0 Object:(id)arg1 {
 	return nil;
 }
 
-+ (JBParseException*)valueWithInt:(int)arg0 withInt:(int)arg1 withObject:(id)arg2 {
++ (org_json_simple_parser_ParseException*)valueWithInt:(int)arg0 Int:(int)arg1 Object:(id)arg2 {
 	return nil;
 }
 

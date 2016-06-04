@@ -8,7 +8,7 @@ import com.intel.moe.natj.objc.ann.ObjCClassName;
 import com.intel.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
-@ObjCClassName("JBItemList")
+@ObjCClassName("org_json_simple_ItemList")
 @RegisterOnStartup
 @com.intel.moe.natj.general.ann.Runtime(ObjCRuntime.class)
 public class ItemList extends NSObject {	
@@ -37,15 +37,15 @@ public class ItemList extends NSObject {
 		return self;		
 	}	
 	
-	@Selector("valueWithString:withString:")	
-	public ItemList valueWithStringwithString(String arg0, String arg1) {
+	@Selector("valueWithString:String:")	
+	public ItemList valueWithStringString(String arg0, String arg1) {
 		ItemList self = (ItemList) ItemList.alloc().init();		
 		self.original = new org.json.simple.ItemList(arg0, arg1);		
 		return self;		
 	}	
 	
-	@Selector("valueWithString:withString:withBoolean:")	
-	public ItemList valueWithStringwithStringwithBoolean(String arg0, String arg1, boolean arg2) {
+	@Selector("valueWithString:String:Boolean:")	
+	public ItemList valueWithStringStringBoolean(String arg0, String arg1, boolean arg2) {
 		ItemList self = (ItemList) ItemList.alloc().init();		
 		self.original = new org.json.simple.ItemList(arg0, arg1, arg2);		
 		return self;		
@@ -61,13 +61,13 @@ public class ItemList extends NSObject {
 		return original.getArray();		
 	}	
 	
-	@Selector("splitWithString:withString:withList:withBoolean:")	
-	public void splitWithStringwithStringwithListwithBoolean(String arg0, String arg1, java.util.List arg2, boolean arg3) {
+	@Selector("splitWithString:String:List:Boolean:")	
+	public void splitWithStringStringListBoolean(String arg0, String arg1, java.util.List arg2, boolean arg3) {
 		original.split(arg0, arg1, arg2, arg3);		
 	}	
 	
-	@Selector("splitWithString:withString:withList:")	
-	public void splitWithStringwithStringwithList(String arg0, String arg1, java.util.List arg2) {
+	@Selector("splitWithString:String:List:")	
+	public void splitWithStringStringList(String arg0, String arg1, java.util.List arg2) {
 		original.split(arg0, arg1, arg2);		
 	}	
 	
@@ -76,8 +76,8 @@ public class ItemList extends NSObject {
 		original.setSP(arg0);		
 	}	
 	
-	@Selector("addWithInt:withString:")	
-	public void addWithIntwithString(int arg0, String arg1) {
+	@Selector("addWithInt:String:")	
+	public void addWithIntString(int arg0, String arg1) {
 		original.add(arg0, arg1);		
 	}	
 	
@@ -96,13 +96,13 @@ public class ItemList extends NSObject {
 		original.addAll(arg0);		
 	}	
 	
-	@Selector("addAllWithString:withString:")	
-	public void addAllWithStringwithString(String arg0, String arg1) {
+	@Selector("addAllWithString:String:")	
+	public void addAllWithStringString(String arg0, String arg1) {
 		original.addAll(arg0, arg1);		
 	}	
 	
-	@Selector("addAllWithString:withString:withBoolean:")	
-	public void addAllWithStringwithStringwithBoolean(String arg0, String arg1, boolean arg2) {
+	@Selector("addAllWithString:String:Boolean:")	
+	public void addAllWithStringStringBoolean(String arg0, String arg1, boolean arg2) {
 		original.addAll(arg0, arg1, arg2);		
 	}	
 	
@@ -134,5 +134,15 @@ public class ItemList extends NSObject {
 	@Selector("reset")	
 	public void reset() {		
 		original.reset();		
+	}	
+	
+	@Selector("hashCode")	
+	public int hashCode() {		
+		return original.hashCode();		
+	}	
+	
+	@Selector("equalsWithObject:")	
+	public boolean equalsWithObject(Object arg0) {
+		return original.equals(arg0);		
 	}	
 }

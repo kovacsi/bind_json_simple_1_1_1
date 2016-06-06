@@ -4,6 +4,7 @@
     <list default="true" id="74382f0b-f41e-4d19-9d8a-e7dc60fdffad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bind_json_simple_1_1_1.podspec" afterPath="$PROJECT_DIR$/bind_json_simple_1_1_1.podspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONArray.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONArray.h" />
@@ -30,20 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.3721374">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONValue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JSONValue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20038168">
+            <state vertical-scroll-proportion="0.0">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
@@ -53,8 +54,8 @@
       <file leaf-file-name="JSONArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state vertical-scroll-proportion="-9.518518">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -434,7 +435,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
+    <option name="x" value="173" />
     <option name="y" value="23" />
     <option name="width" value="1609" />
     <option name="height" value="937" />
@@ -881,7 +882,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="23" width="1609" height="937" extended-state="0" />
+    <frame x="173" y="23" width="1609" height="937" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1131,26 +1132,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.518518">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20038168">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.3721374">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding />
         </state>
       </provider>

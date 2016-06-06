@@ -23,20 +23,13 @@ public class JSONObject extends NSObject {
 	@Selector("alloc")	
 	public static native JSONObject alloc();
 
-	@Selector("init")
-	public JSONObject init() {
-		JSONObject self = (JSONObject) super.init();
-		if (self != null) {
-			self.original = new org.json.simple.JSONObject();
-		}
+	@Selector("value")
+	public JSONObject value() {
+		JSONObject self = (JSONObject) JSONObject.alloc().init();
+		self.original = new org.json.simple.JSONObject();
 		return self;
 	}
 
-	@Selector("value")	
-	public JSONObject value() {		
-		return (JSONObject) JSONObject.alloc().init();
-	}	
-	
 	@Selector("valueWithMap:")	
 	public JSONObject valueWithMap(java.util.Map arg0) {		
 		JSONObject self = (JSONObject) JSONObject.alloc().init();		

@@ -2,10 +2,6 @@
 
 @implementation org_json_simple_JSONArray
 
-- (org_json_simple_JSONArray*)init {
-    return nil;
-}
-
 + (org_json_simple_JSONArray*)value {
 	return nil;
 }

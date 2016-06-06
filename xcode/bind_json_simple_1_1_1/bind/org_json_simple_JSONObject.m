@@ -2,10 +2,6 @@
 
 @implementation org_json_simple_JSONObject
 
-- (org_json_simple_JSONObject*)init {
-    return nil;
-}
-
 + (org_json_simple_JSONObject*)value {
 	return nil;
 }

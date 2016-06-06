@@ -137,31 +137,6 @@ public class JSONObject extends NSObject {
 	@Selector("entrySet")	
 	public java.util.Set entrySet() {		
 		return original.entrySet();		
-	}	
-	
-	@Selector("getOrDefaultWithObject:Object:")	
-	public Object getOrDefaultWithObjectObject(Object arg0, Object arg1) {
-		return original.getOrDefault(arg0, arg1);		
-	}	
-	
-	@Selector("putIfAbsentWithObject:Object:")	
-	public Object putIfAbsentWithObjectObject(Object arg0, Object arg1) {
-		return original.putIfAbsent(arg0, arg1);		
-	}	
-	
-	@Selector("removeWithObject:Object:")	
-	public boolean removeWithObjectObject(Object arg0, Object arg1) {
-		return original.remove(arg0, arg1);		
-	}	
-	
-	@Selector("replaceWithObject:Object:Object:")	
-	public boolean replaceWithObjectObjectObject(Object arg0, Object arg1, Object arg2) {
-		return original.replace(arg0, arg1, arg2);		
-	}	
-	
-	@Selector("replaceWithObject:Object:")	
-	public Object replaceWithObjectObject(Object arg0, Object arg1) {
-		return original.replace(arg0, arg1);		
 	}
 
 	@Selector("clone")	

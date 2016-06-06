@@ -90,26 +90,6 @@
 	return nil;
 }
 
-- (id)getOrDefaultWithObject:(id)arg0 Object:(id)arg1 {
-	return nil;
-}
-
-- (id)putIfAbsentWithObject:(id)arg0 Object:(id)arg1 {
-	return nil;
-}
-
-- (bool)removeWithObject:(id)arg0 Object:(id)arg1 {
-	return 0;
-}
-
-- (bool)replaceWithObject:(id)arg0 Object:(id)arg1 Object:(id)arg2 {
-	return 0;
-}
-
-- (id)replaceWithObject:(id)arg0 Object:(id)arg1 {
-	return nil;
-}
-
 - (id)computeIfAbsentWithObject:(id)arg0 Function:(id)arg1 {
 	return nil;
 }

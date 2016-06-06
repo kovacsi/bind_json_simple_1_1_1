@@ -210,19 +210,11 @@
 
 }
 
-- (id)spliterator {
-	return nil;
-}
-
 - (bool)removeIfWithPredicate:(id)arg0 {
 	return 0;
 }
 
 - (void)replaceAllWithUnaryOperator:(id)arg0 {
-
-}
-
-- (void)sortWithComparator:(id)arg0 {
 
 }
 

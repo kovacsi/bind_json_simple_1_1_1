@@ -55,9 +55,7 @@
 - (id)iterator;
 - (id)subListWithInt:(int)arg0 Int:(int)arg1;
 - (void)forEachWithConsumer:(id)arg0;
-- (id)spliterator;
 - (bool)removeIfWithPredicate:(id)arg0;
 - (void)replaceAllWithUnaryOperator:(id)arg0;
-- (void)sortWithComparator:(id)arg0;
 
 @end

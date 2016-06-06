@@ -284,13 +284,4 @@ public class JSONArray extends NSObject {
 		return original.subList(arg0, arg1);		
 	}	
 
-	@Selector("spliterator")	
-	public java.util.Spliterator spliterator() {		
-		return original.spliterator();		
-	}	
-
-	@Selector("sortWithComparator:")	
-	public void sortWithComparator(java.util.Comparator arg0) {		
-		original.sort(arg0);		
-	}	
 }

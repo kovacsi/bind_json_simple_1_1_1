@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74382f0b-f41e-4d19-9d8a-e7dc60fdffad" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/ItemList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/ParseException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/Yytoken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_ItemList.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_ItemList.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_parser_ParseException.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_parser_ParseException.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_parser_Yytoken.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_parser_Yytoken.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.xcworkspace/xcuserdata/kovacsi.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/JSONParser.java" afterPath="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/JSONParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/MainUI.storyboard" afterPath="$PROJECT_DIR$/src/main/resources/MainUI.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONArray.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONArray.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONArray.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONArray.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONObject.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONObject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONObject.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONObject.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONValue.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONValue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONValue.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_JSONValue.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_parser_JSONParser.h" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_parser_JSONParser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_parser_JSONParser.m" afterPath="$PROJECT_DIR$/xcode/bind_json_simple_1_1_1/bind/org_json_simple_parser_JSONParser.m" />
     </list>
     <ignored path="bind_json_simple_1_1_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,24 +52,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Yytoken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/Yytoken.java">
+      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-23.333334">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java">
+      <file leaf-file-name="JSONParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/JSONParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2328243">
-              <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+            <state vertical-scroll-proportion="-12.222222">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="e#2712#2713#0" expanded="true" />
-                <element signature="e#2752#2753#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONValue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2651515">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="41" />
+              <folding>
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -379,20 +428,20 @@
         <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONAware.java" />
         <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONStreamAware.java" />
         <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/ContainerFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/JSONParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/ItemList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/Yytoken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/JSONParser.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
+    <option name="x" value="360" />
     <option name="y" value="23" />
     <option name="width" value="1609" />
-    <option name="height" value="937" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -836,31 +885,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="23" width="1609" height="937" extended-state="0" />
-    <editor active="false" />
+    <frame x="360" y="23" width="1609" height="936" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32682925" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26866624" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -933,29 +982,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/Yytoken.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/parser/JSONParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-12.222222">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2328243">
-          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+        <state vertical-scroll-proportion="-23.333334">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="e#2712#2713#0" expanded="true" />
-            <element signature="e#2752#2753#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/x/org/json/simple/JSONValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2651515">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
           </folding>
         </state>
       </provider>

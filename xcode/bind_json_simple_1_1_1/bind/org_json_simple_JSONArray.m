@@ -202,16 +202,4 @@
 	return nil;
 }
 
-- (void)forEachWithConsumer:(id)arg0 {
-
-}
-
-- (bool)removeIfWithPredicate:(id)arg0 {
-	return 0;
-}
-
-- (void)replaceAllWithUnaryOperator:(id)arg0 {
-
-}
-
 @end

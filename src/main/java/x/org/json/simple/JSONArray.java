@@ -21,15 +21,15 @@ public class JSONArray extends NSObject {
 	
 	@Owned	
 	@Selector("alloc")	
-	public static native JSONArray alloc();
-
-	@Selector("value")
-	public JSONArray value() {
-		JSONArray self = (JSONArray) JSONArray.alloc().init();
-		self.original = new org.json.simple.JSONArray();
-		return self;
-	}
-
+	public static native JSONArray alloc();	
+	
+	@Selector("value")	
+	public JSONArray value() {		
+		JSONArray self = (JSONArray) JSONArray.alloc().init();		
+		self.original = new org.json.simple.JSONArray();		
+		return self;		
+	}	
+	
 	@Selector("valueWithCollection:")	
 	public JSONArray valueWithCollection(java.util.Collection arg0) {		
 		JSONArray self = (JSONArray) JSONArray.alloc().init();		
@@ -46,52 +46,112 @@ public class JSONArray extends NSObject {
 	public void writeJSONStringWithWriter(java.io.Writer arg0) throws java.io.IOException {		
 		original.writeJSONString(arg0);		
 	}	
-
+	
+	@Selector("toJSONStringWithCollection:")	
+	public static String toJSONStringWithCollection(java.util.Collection arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithByte_array:Writer:")	
 	public static void writeJSONStringWithByte_arrayWriter(byte[] arg0, java.io.Writer arg1) throws java.io.IOException {		
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithByte_array:")	
+	public static String toJSONStringWithByte_array(byte[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithShort_array:Writer:")	
 	public static void writeJSONStringWithShort_arrayWriter(short[] arg0, java.io.Writer arg1) throws java.io.IOException {		
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithShort_array:")	
+	public static String toJSONStringWithShort_array(short[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithInt_array:Writer:")	
 	public static void writeJSONStringWithInt_arrayWriter(int[] arg0, java.io.Writer arg1) throws java.io.IOException {		
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithInt_array:")	
+	public static String toJSONStringWithInt_array(int[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithLong_array:Writer:")	
 	public static void writeJSONStringWithLong_arrayWriter(long[] arg0, java.io.Writer arg1) throws java.io.IOException {		
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithLong_array:")	
+	public static String toJSONStringWithLong_array(long[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithFloat_array:Writer:")	
 	public static void writeJSONStringWithFloat_arrayWriter(float[] arg0, java.io.Writer arg1) throws java.io.IOException {		
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithFloat_array:")	
+	public static String toJSONStringWithFloat_array(float[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithDouble_array:Writer:")	
 	public static void writeJSONStringWithDouble_arrayWriter(double[] arg0, java.io.Writer arg1) throws java.io.IOException {		
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithDouble_array:")	
+	public static String toJSONStringWithDouble_array(double[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithBoolean_array:Writer:")	
 	public static void writeJSONStringWithBoolean_arrayWriter(boolean[] arg0, java.io.Writer arg1) throws java.io.IOException {		
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithBoolean_array:")	
+	public static String toJSONStringWithBoolean_array(boolean[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithChar_array:Writer:")	
 	public static void writeJSONStringWithChar_arrayWriter(char[] arg0, java.io.Writer arg1) throws java.io.IOException {		
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithChar_array:")	
+	public static String toJSONStringWithChar_array(char[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
 	@Selector("writeJSONStringWithObject_array:Writer:")	
 	public static void writeJSONStringWithObject_arrayWriter(Object[] arg0, java.io.Writer arg1) throws java.io.IOException {
 		org.json.simple.JSONArray.writeJSONString(arg0, arg1);		
 	}	
-
+	
+	@Selector("toJSONStringWithObject_array:")	
+	public static String toJSONStringWithObject_array(Object[] arg0) {
+		return org.json.simple.JSONArray.toJSONString(arg0);		
+	}	
+	
+	@Selector("toJSONString")	
+	public String toJSONString() {
+		return original.toJSONString();		
+	}	
+	
+	@Selector("toString")	
+	public String toString() {
+		return original.toString();		
+	}	
+	
 	@Selector("trimToSize")	
 	public void trimToSize() {		
 		original.trimToSize();		
@@ -216,5 +276,4 @@ public class JSONArray extends NSObject {
 	public java.util.List subListWithIntInt(int arg0, int arg1) {		
 		return original.subList(arg0, arg1);		
 	}	
-
 }

@@ -21,15 +21,9 @@
 - (id)removeWithObject:(id)arg0;
 - (void)clear;
 - (bool)containsValueWithObject:(id)arg0;
+- (id)clone;
 - (id)keySet;
 - (id)values;
 - (id)entrySet;
-- (id)computeIfAbsentWithObject:(id)arg0 Function:(id)arg1;
-- (id)computeIfPresentWithObject:(id)arg0 BiFunction:(id)arg1;
-- (id)computeWithObject:(id)arg0 BiFunction:(id)arg1;
-- (id)mergeWithObject:(id)arg0 Object:(id)arg1 BiFunction:(id)arg2;
-- (void)forEachWithBiConsumer:(id)arg0;
-- (void)replaceAllWithBiFunction:(id)arg0;
-- (id)clone;
 
 @end

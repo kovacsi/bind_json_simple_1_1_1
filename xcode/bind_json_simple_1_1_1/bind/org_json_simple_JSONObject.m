@@ -74,6 +74,10 @@
 	return 0;
 }
 
+- (id)clone {
+	return nil;
+}
+
 - (id)keySet {
 	return nil;
 }
@@ -83,34 +87,6 @@
 }
 
 - (id)entrySet {
-	return nil;
-}
-
-- (id)computeIfAbsentWithObject:(id)arg0 Function:(id)arg1 {
-	return nil;
-}
-
-- (id)computeIfPresentWithObject:(id)arg0 BiFunction:(id)arg1 {
-	return nil;
-}
-
-- (id)computeWithObject:(id)arg0 BiFunction:(id)arg1 {
-	return nil;
-}
-
-- (id)mergeWithObject:(id)arg0 Object:(id)arg1 BiFunction:(id)arg2 {
-	return nil;
-}
-
-- (void)forEachWithBiConsumer:(id)arg0 {
-
-}
-
-- (void)replaceAllWithBiFunction:(id)arg0 {
-
-}
-
-- (id)clone {
 	return nil;
 }
 

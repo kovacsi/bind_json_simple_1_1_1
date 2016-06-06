@@ -21,15 +21,15 @@ public class JSONObject extends NSObject {
 	
 	@Owned	
 	@Selector("alloc")	
-	public static native JSONObject alloc();
-
-	@Selector("value")
-	public JSONObject value() {
-		JSONObject self = (JSONObject) JSONObject.alloc().init();
-		self.original = new org.json.simple.JSONObject();
-		return self;
-	}
-
+	public static native JSONObject alloc();	
+	
+	@Selector("value")	
+	public JSONObject value() {		
+		JSONObject self = (JSONObject) JSONObject.alloc().init();		
+		self.original = new org.json.simple.JSONObject();		
+		return self;		
+	}	
+	
 	@Selector("valueWithMap:")	
 	public JSONObject valueWithMap(java.util.Map arg0) {		
 		JSONObject self = (JSONObject) JSONObject.alloc().init();		
@@ -117,6 +117,11 @@ public class JSONObject extends NSObject {
 		return original.containsValue(arg0);		
 	}	
 	
+	@Selector("clone")	
+	public Object clone() {
+		return original.clone();		
+	}	
+	
 	@Selector("keySet")	
 	public java.util.Set keySet() {		
 		return original.keySet();		
@@ -130,10 +135,5 @@ public class JSONObject extends NSObject {
 	@Selector("entrySet")	
 	public java.util.Set entrySet() {		
 		return original.entrySet();		
-	}
-
-	@Selector("clone")	
-	public Object clone() {
-		return original.clone();		
 	}	
 }

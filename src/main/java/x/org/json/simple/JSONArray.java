@@ -38,6 +38,11 @@ public class JSONArray extends NSObject {
 	@Selector("toJSONString")	
 	public String toJSONString() {
 		return original.toJSONString();		
-	}	
+	}
+
+	@Selector("toString")
+	public String toString() {
+		return original.toString();
+	}
 
 }

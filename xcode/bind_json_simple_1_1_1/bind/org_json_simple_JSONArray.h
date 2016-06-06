@@ -5,5 +5,6 @@
 
 - (bool)addWithObject:(id)arg0;
 - (NSString*)toJSONString;
+- (NSString*)toString;
 
 @end

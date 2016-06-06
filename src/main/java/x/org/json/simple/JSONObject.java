@@ -21,13 +21,20 @@ public class JSONObject extends NSObject {
 	
 	@Owned	
 	@Selector("alloc")	
-	public static native JSONObject alloc();	
-	
+	public static native JSONObject alloc();
+
+	@Selector("init")
+	public JSONObject init() {
+		JSONObject self = (JSONObject) super.init();
+		if (self != null) {
+			self.original = new org.json.simple.JSONObject();
+		}
+		return self;
+	}
+
 	@Selector("value")	
 	public JSONObject value() {		
-		JSONObject self = (JSONObject) JSONObject.alloc().init();		
-		self.original = new org.json.simple.JSONObject();		
-		return self;		
+		return (JSONObject) JSONObject.alloc().init();
 	}	
 	
 	@Selector("valueWithMap:")	
@@ -155,38 +162,8 @@ public class JSONObject extends NSObject {
 	@Selector("replaceWithObject:Object:")	
 	public Object replaceWithObjectObject(Object arg0, Object arg1) {
 		return original.replace(arg0, arg1);		
-	}	
-	
-	@Selector("computeIfAbsentWithObject:Function:")	
-	public Object computeIfAbsentWithObjectFunction(Object arg0, java.util.function.Function arg1) {
-		return original.computeIfAbsent(arg0, arg1);		
-	}	
-	
-	@Selector("computeIfPresentWithObject:BiFunction:")	
-	public Object computeIfPresentWithObjectBiFunction(Object arg0, java.util.function.BiFunction arg1) {
-		return original.computeIfPresent(arg0, arg1);		
-	}	
-	
-	@Selector("computeWithObject:BiFunction:")	
-	public Object computeWithObjectBiFunction(Object arg0, java.util.function.BiFunction arg1) {
-		return original.compute(arg0, arg1);		
-	}	
-	
-	@Selector("mergeWithObject:Object:BiFunction:")	
-	public Object mergeWithObjectObjectBiFunction(Object arg0, Object arg1, java.util.function.BiFunction arg2) {
-		return original.merge(arg0, arg1, arg2);		
-	}	
-	
-	@Selector("forEachWithBiConsumer:")	
-	public void forEachWithBiConsumer(java.util.function.BiConsumer arg0) {		
-		original.forEach(arg0);		
-	}	
-	
-	@Selector("replaceAllWithBiFunction:")	
-	public void replaceAllWithBiFunction(java.util.function.BiFunction arg0) {		
-		original.replaceAll(arg0);		
-	}	
-	
+	}
+
 	@Selector("clone")	
 	public Object clone() {
 		return original.clone();		

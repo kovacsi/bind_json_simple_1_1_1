@@ -3,6 +3,7 @@
 
 @interface org_json_simple_JSONObject : NSObject
 
+- (org_json_simple_JSONObject*)init;
 + (org_json_simple_JSONObject*)value;
 + (org_json_simple_JSONObject*)valueWithMap:(id)arg0;
 + (void)writeJSONStringWithMap:(id)arg0 Writer:(id)arg1;

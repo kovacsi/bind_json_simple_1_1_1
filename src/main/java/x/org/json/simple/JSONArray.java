@@ -21,15 +21,22 @@ public class JSONArray extends NSObject {
 	
 	@Owned	
 	@Selector("alloc")	
-	public static native JSONArray alloc();	
-	
-	@Selector("value")	
-	public JSONArray value() {		
-		JSONArray self = (JSONArray) JSONArray.alloc().init();		
-		self.original = new org.json.simple.JSONArray();		
-		return self;		
-	}	
-	
+	public static native JSONArray alloc();
+
+	@Selector("init")
+	public JSONArray init() {
+		JSONArray self = (JSONArray) super.init();
+		if (self != null) {
+			self.original = new org.json.simple.JSONArray();
+		}
+		return self;
+	}
+
+	@Selector("value")
+	public JSONArray value() {
+		return (JSONArray) JSONArray.alloc().init();
+	}
+
 	@Selector("valueWithCollection:")	
 	public JSONArray valueWithCollection(java.util.Collection arg0) {		
 		JSONArray self = (JSONArray) JSONArray.alloc().init();		
@@ -276,27 +283,12 @@ public class JSONArray extends NSObject {
 	public java.util.List subListWithIntInt(int arg0, int arg1) {		
 		return original.subList(arg0, arg1);		
 	}	
-	
-	@Selector("forEachWithConsumer:")	
-	public void forEachWithConsumer(java.util.function.Consumer arg0) {		
-		original.forEach(arg0);		
-	}	
-	
+
 	@Selector("spliterator")	
 	public java.util.Spliterator spliterator() {		
 		return original.spliterator();		
 	}	
-	
-	@Selector("removeIfWithPredicate:")	
-	public boolean removeIfWithPredicate(java.util.function.Predicate arg0) {		
-		return original.removeIf(arg0);		
-	}	
-	
-	@Selector("replaceAllWithUnaryOperator:")	
-	public void replaceAllWithUnaryOperator(java.util.function.UnaryOperator arg0) {		
-		original.replaceAll(arg0);		
-	}	
-	
+
 	@Selector("sortWithComparator:")	
 	public void sortWithComparator(java.util.Comparator arg0) {		
 		original.sort(arg0);		

@@ -3,6 +3,7 @@
 
 @interface org_json_simple_JSONArray : NSObject
 
+- (org_json_simple_JSONArray*)init;
 + (org_json_simple_JSONArray*)value;
 + (org_json_simple_JSONArray*)valueWithCollection:(id)arg0;
 + (void)writeJSONStringWithCollection:(id)arg0 Writer:(id)arg1;

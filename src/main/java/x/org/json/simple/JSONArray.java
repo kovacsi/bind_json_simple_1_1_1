@@ -30,6 +30,11 @@ public class JSONArray extends NSObject {
 		return self;
 	}
 
+	@Selector("addWithObject:")
+	public boolean addWithObject(java.lang.Object arg0) {
+		return original.add(arg0);
+	}
+
 	@Selector("toJSONString")	
 	public String toJSONString() {
 		return original.toJSONString();		

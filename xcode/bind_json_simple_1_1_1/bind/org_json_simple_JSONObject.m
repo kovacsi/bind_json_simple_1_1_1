@@ -2,10 +2,6 @@
 
 @implementation org_json_simple_JSONObject
 
-- (NSString*)toJSONString {
-	return nil;
-}
-
 - (id)getWithObject:(id)arg0 {
 	return nil;
 }
@@ -16,6 +12,10 @@
 
 - (id)putWithObject:(id)arg0 Object:(id)arg1 {
 	return nil;
+}
+
+- (NSString*)toJSONString {
+    return nil;
 }
 
 @end

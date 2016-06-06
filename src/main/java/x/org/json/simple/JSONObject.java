@@ -30,18 +30,6 @@ public class JSONObject extends NSObject {
 		return self;
 	}
 
-	@Selector("value")	
-	public JSONObject value() {		
-		JSONObject self = (JSONObject) JSONObject.alloc().init();		
-		self.original = new org.json.simple.JSONObject();		
-		return self;		
-	}	
-
-	@Selector("toJSONString")	
-	public String toJSONString() {
-		return original.toJSONString();		
-	}	
-
 	@Selector("getWithObject:")	
 	public Object getWithObject(Object arg0) {
 		return original.get(arg0);		
@@ -55,6 +43,11 @@ public class JSONObject extends NSObject {
 	@Selector("putWithObject:Object:")	
 	public Object putWithObjectObject(Object arg0, Object arg1) {
 		return original.put(arg0, arg1);		
+	}
+
+	@Selector("toJSONString")
+	public String toJSONString() {
+		return original.toJSONString();
 	}
 
 }

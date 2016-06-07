@@ -34,12 +34,7 @@ public class JSONObject extends NSObject {
 	public Object getWithObject(Object arg0) {
 		return original.get(arg0);		
 	}	
-	
-	@Selector("containsKeyWithObject:")	
-	public boolean containsKeyWithObject(Object arg0) {
-		return original.containsKey(arg0);		
-	}	
-	
+
 	@Selector("putWithObject:Object:")	
 	public Object putWithObjectObject(Object arg0, Object arg1) {
 		return original.put(arg0, arg1);		
@@ -48,6 +43,11 @@ public class JSONObject extends NSObject {
 	@Selector("toJSONString")
 	public String toJSONString() {
 		return original.toJSONString();
+	}
+
+	@Selector("toString")
+	public String toString() {
+		return original.toString();
 	}
 
 }

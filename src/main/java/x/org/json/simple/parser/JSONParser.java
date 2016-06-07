@@ -30,11 +30,6 @@ public class JSONParser extends NSObject {
 		return self;
 	}
 
-	@Selector("getPosition")	
-	public int getPosition() {		
-		return original.getPosition();		
-	}	
-
 	@Selector("parseWithString:")
 	public x.org.json.simple.JSONObject parseWithString(String arg0) throws org.json.simple.parser.ParseException {
 		x.org.json.simple.JSONObject ret = (x.org.json.simple.JSONObject) x.org.json.simple.JSONObject.alloc().init();

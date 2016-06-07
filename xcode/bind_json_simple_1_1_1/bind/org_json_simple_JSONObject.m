@@ -6,15 +6,15 @@
 	return nil;
 }
 
-- (bool)containsKeyWithObject:(id)arg0 {
-	return 0;
-}
-
 - (id)putWithObject:(id)arg0 Object:(id)arg1 {
 	return nil;
 }
 
 - (NSString*)toJSONString {
+    return nil;
+}
+
+- (NSString*)toString {
     return nil;
 }
 

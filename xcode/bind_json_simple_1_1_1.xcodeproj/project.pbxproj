@@ -16,10 +16,10 @@
 		4F209AABEDBDC93ACABA2F01 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		77A2ADADE1C09A78E0332692 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51101E67AA48DDF98EC7C483 /* main.cpp */; };
 		86C32166EC4D33D039BCECD0 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = AAF700D229A4CE445A9B2676 /* application.jar */; };
-		99A857AA1D0573B800FF887A /* org_json_simple_JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8579E1D0573B800FF887A /* org_json_simple_JSONArray.m */; };
-		99A857AB1D0573B800FF887A /* org_json_simple_JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A857A01D0573B800FF887A /* org_json_simple_JSONObject.m */; };
-		99A857AC1D0573B800FF887A /* org_json_simple_JSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A857A21D0573B800FF887A /* org_json_simple_JSONValue.m */; };
-		99A857AD1D0573B800FF887A /* org_json_simple_parser_JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A857A41D0573B800FF887A /* org_json_simple_parser_JSONParser.m */; };
+		9954F8211D0866A1006D1A51 /* org_json_simple_JSONArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9954F81A1D0866A1006D1A51 /* org_json_simple_JSONArray.m */; };
+		9954F8221D0866A1006D1A51 /* org_json_simple_JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9954F81C1D0866A1006D1A51 /* org_json_simple_JSONObject.m */; };
+		9954F8231D0866A1006D1A51 /* org_json_simple_JSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9954F81E1D0866A1006D1A51 /* org_json_simple_JSONValue.m */; };
+		9954F8241D0866A1006D1A51 /* org_json_simple_parser_JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9954F8201D0866A1006D1A51 /* org_json_simple_parser_JSONParser.m */; };
 		C7B62D2170D5520063A0DAB1 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582C7FB0B3EB38CBCC00EF5 /* MOE.framework */; };
 		E91C6748771C96BCF42DEF52 /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC748EBAA22B22FCE04050 /* MainUI.storyboard */; };
 		EDC89D6BAEC60172D484F32C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */; };
@@ -65,14 +65,14 @@
 		89EB6E4FBBB902954AF63292 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
 		8C94D4AEFD32CE8DC7A687FC /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; };
 		91F37DE0A8D221F7C8311616 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../src/main/resources/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
-		99A8579D1D0573B800FF887A /* org_json_simple_JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONArray.h; sourceTree = "<group>"; };
-		99A8579E1D0573B800FF887A /* org_json_simple_JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONArray.m; sourceTree = "<group>"; };
-		99A8579F1D0573B800FF887A /* org_json_simple_JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONObject.h; sourceTree = "<group>"; };
-		99A857A01D0573B800FF887A /* org_json_simple_JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONObject.m; sourceTree = "<group>"; };
-		99A857A11D0573B800FF887A /* org_json_simple_JSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONValue.h; sourceTree = "<group>"; };
-		99A857A21D0573B800FF887A /* org_json_simple_JSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONValue.m; sourceTree = "<group>"; };
-		99A857A31D0573B800FF887A /* org_json_simple_parser_JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_parser_JSONParser.h; sourceTree = "<group>"; };
-		99A857A41D0573B800FF887A /* org_json_simple_parser_JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_parser_JSONParser.m; sourceTree = "<group>"; };
+		9954F8191D0866A1006D1A51 /* org_json_simple_JSONArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONArray.h; sourceTree = "<group>"; };
+		9954F81A1D0866A1006D1A51 /* org_json_simple_JSONArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONArray.m; sourceTree = "<group>"; };
+		9954F81B1D0866A1006D1A51 /* org_json_simple_JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONObject.h; sourceTree = "<group>"; };
+		9954F81C1D0866A1006D1A51 /* org_json_simple_JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONObject.m; sourceTree = "<group>"; };
+		9954F81D1D0866A1006D1A51 /* org_json_simple_JSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_JSONValue.h; sourceTree = "<group>"; };
+		9954F81E1D0866A1006D1A51 /* org_json_simple_JSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_JSONValue.m; sourceTree = "<group>"; };
+		9954F81F1D0866A1006D1A51 /* org_json_simple_parser_JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_json_simple_parser_JSONParser.h; sourceTree = "<group>"; };
+		9954F8201D0866A1006D1A51 /* org_json_simple_parser_JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org_json_simple_parser_JSONParser.m; sourceTree = "<group>"; };
 		A24A66393C676FA0078F9A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = bind_json_simple_1_1_1/Info.plist; sourceTree = "<group>"; };
 		AAF700D229A4CE445A9B2676 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; };
 		D6773CD15A0556CDC531BE20 /* bind_json_simple_1_1_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bind_json_simple_1_1_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,25 +146,25 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		99A8579A1D0573B800FF887A /* bind */ = {
+		9954F8181D0866A1006D1A51 /* x */ = {
 			isa = PBXGroup;
 			children = (
-				99A8579D1D0573B800FF887A /* org_json_simple_JSONArray.h */,
-				99A8579E1D0573B800FF887A /* org_json_simple_JSONArray.m */,
-				99A8579F1D0573B800FF887A /* org_json_simple_JSONObject.h */,
-				99A857A01D0573B800FF887A /* org_json_simple_JSONObject.m */,
-				99A857A11D0573B800FF887A /* org_json_simple_JSONValue.h */,
-				99A857A21D0573B800FF887A /* org_json_simple_JSONValue.m */,
-				99A857A31D0573B800FF887A /* org_json_simple_parser_JSONParser.h */,
-				99A857A41D0573B800FF887A /* org_json_simple_parser_JSONParser.m */,
+				9954F8191D0866A1006D1A51 /* org_json_simple_JSONArray.h */,
+				9954F81A1D0866A1006D1A51 /* org_json_simple_JSONArray.m */,
+				9954F81B1D0866A1006D1A51 /* org_json_simple_JSONObject.h */,
+				9954F81C1D0866A1006D1A51 /* org_json_simple_JSONObject.m */,
+				9954F81D1D0866A1006D1A51 /* org_json_simple_JSONValue.h */,
+				9954F81E1D0866A1006D1A51 /* org_json_simple_JSONValue.m */,
+				9954F81F1D0866A1006D1A51 /* org_json_simple_parser_JSONParser.h */,
+				9954F8201D0866A1006D1A51 /* org_json_simple_parser_JSONParser.m */,
 			);
-			path = bind;
+			path = x;
 			sourceTree = "<group>";
 		};
 		CB8637F11BE5952294DA76DB /* bind_json_simple_1_1_1 */ = {
 			isa = PBXGroup;
 			children = (
-				99A8579A1D0573B800FF887A /* bind */,
+				9954F8181D0866A1006D1A51 /* x */,
 				F2993A14C8A2A071BEF8F1DE /* Supporting Files */,
 			);
 			path = bind_json_simple_1_1_1;
@@ -318,11 +318,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99A857AA1D0573B800FF887A /* org_json_simple_JSONArray.m in Sources */,
-				99A857AB1D0573B800FF887A /* org_json_simple_JSONObject.m in Sources */,
-				99A857AC1D0573B800FF887A /* org_json_simple_JSONValue.m in Sources */,
+				9954F8211D0866A1006D1A51 /* org_json_simple_JSONArray.m in Sources */,
+				9954F8221D0866A1006D1A51 /* org_json_simple_JSONObject.m in Sources */,
+				9954F8231D0866A1006D1A51 /* org_json_simple_JSONValue.m in Sources */,
 				77A2ADADE1C09A78E0332692 /* main.cpp in Sources */,
-				99A857AD1D0573B800FF887A /* org_json_simple_parser_JSONParser.m in Sources */,
+				9954F8241D0866A1006D1A51 /* org_json_simple_parser_JSONParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

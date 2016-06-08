@@ -47,7 +47,6 @@ moe {
     xcode.bundleID = 'com.migeran.bind-json-simple-1-1-1'
     xcode.generateProject false
     xcode.xcodeProjectDirPath 'xcode'
-    xcode.infoPlistPath file('xcode/jartest/Info.plist').absolutePath
 }
 
 // Set dependencies
